@@ -2932,7 +2932,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1566821235}
-  m_LocalRotation: {x: .504755735, y: .0131725157, z: .18092446, w: .843987346}
+  m_LocalRotation: {x: .504755735, y: .0131725147, z: .18092446, w: .843987286}
   m_LocalPosition: {x: 0, y: 7.7610817, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -3382,7 +3382,7 @@ Transform:
   m_PrefabParentObject: {fileID: 400042, guid: 79efd4c2b57a6d24f9555a5851c00ad1, type: 2}
   m_PrefabInternal: {fileID: 459376512}
   m_GameObject: {fileID: 1764729727}
-  m_LocalRotation: {x: -.00180840457, y: -.00284442608, z: -.106432639, w: .994314194}
+  m_LocalRotation: {x: -.00180840469, y: -.00284442632, z: -.106432647, w: .994314253}
   m_LocalPosition: {x: .107596025, y: .00489580538, z: .00427798787}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -3725,11 +3725,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a731c235d01265a4cab90240f410031d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  directionDampTime: .25
-  gameCamera: {fileID: 515378061}
-  directionSpeed: 10
-  rotationDegreePerSecond: .300000012
-  rotationSpeed: 10
 --- !u!1 &1890862562
 GameObject:
   m_ObjectHideFlags: 0

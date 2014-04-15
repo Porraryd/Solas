@@ -13,7 +13,7 @@ public class FlowerPower : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-		counter = CharacterControllerLogic.count;
+		counter = FlowerCollider.count;
 		light.spotAngle = Random.Range(((counter * 20) + 20), ((counter * 20) + 20));
 	}
 }

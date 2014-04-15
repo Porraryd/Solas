@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
 public class CharacterControllerLogic : MonoBehaviour {
@@ -10,9 +10,7 @@ public class CharacterControllerLogic : MonoBehaviour {
 	public float directionSpeed = 3.0f;
 	public float rotationDegreePerSecond = 120f;
 	public float rotationSpeed = 10f;
-
-	public GUIText countText;
-	public static int count = 0;
+	public float jumphight = 10f;
 
 	private float speed = 0.0f;
 	private float horizontal = 0.0f;
@@ -26,7 +24,6 @@ public class CharacterControllerLogic : MonoBehaviour {
 
 		animator = GetComponent<Animator>();
 
-		SetCountText (); 
 
 		if(animator.layerCount >= 2)
 		{
@@ -45,6 +42,7 @@ public class CharacterControllerLogic : MonoBehaviour {
 		//get input from controller
 		horizontal = Input.GetAxis("Horizontal");
 		vertical = Input.GetAxis("Vertical");
+
 	}
 	
 	void FixedUpdate () 
@@ -107,20 +105,7 @@ public class CharacterControllerLogic : MonoBehaviour {
 		return stateInfo.nameHash == m_LocomotionId;
 	}
 
-	void OnTriggerEnter(Collider other)
-	{
-		if (other.gameObject.tag == "PickUp")
-		{
-			other.gameObject.SetActive(false);
-			count++;
-			SetCountText();
-		}
-	}
 	
-	void SetCountText()
-	{
-		countText.text = "Flowers: " + count.ToString (); 
-	}
 }
 
 	

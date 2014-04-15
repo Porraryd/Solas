@@ -1067,6 +1067,8 @@ GameObject:
   - 114: {fileID: 11400002}
   - 114: {fileID: 11400000}
   - 114: {fileID: 11400004}
+  - 114: {fileID: 11400006}
+  - 114: {fileID: 11400008}
   m_Layer: 0
   m_Name: Beta
   m_TagString: Player
@@ -1098,6 +1100,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 400144}
   - 108: {fileID: 10800000}
+  - 114: {fileID: 11400010}
   m_Layer: 0
   m_Name: Spotlight
   m_TagString: Untagged
@@ -1355,7 +1358,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100036}
-  m_LocalRotation: {x: -.00180840457, y: -.00284442608, z: -.106432639, w: .994314194}
+  m_LocalRotation: {x: -.00180840469, y: -.00284442632, z: -.106432647, w: .994314253}
   m_LocalPosition: {x: .107596025, y: .00489580538, z: .00427798787}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -2103,6 +2106,45 @@ MonoBehaviour:
   directionSpeed: 10
   rotationDegreePerSecond: .300000012
   rotationSpeed: 10
+--- !u!114 &11400006
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28dc028d0a6374438a1db4d0a26885b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  directionDampTime: .25
+  gameCamera: {fileID: 0}
+  directionSpeed: 3
+  rotationDegreePerSecond: 120
+  rotationSpeed: 10
+--- !u!114 &11400008
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7651d29ccd3cb4a9986c4d52a6e69066, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  countText: {fileID: 0}
+--- !u!114 &11400010
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100144}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: acc21e72512334e03ae342a764c93275, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!136 &13600000
 CapsuleCollider:
   m_ObjectHideFlags: 1

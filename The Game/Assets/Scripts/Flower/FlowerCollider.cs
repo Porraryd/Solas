@@ -23,7 +23,7 @@ public class FlowerCollider : MonoBehaviour {
 		{
 			count++;
 			SetCountText();
-			this.gameObject.SetActive(false);
+			other.gameObject.SetActive(false);
 		}
 	}
 	

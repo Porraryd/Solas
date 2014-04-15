@@ -93,7 +93,7 @@ public class ThirdPersonCamera : MonoBehaviour {
 		float deltaY = Input.GetAxis ("Mouse Y");
 		float deltaX = Input.GetAxis ("Mouse X");
 
-		longitudeOffset = (longitudeOffset < 0.1f ? 0.1f : (longitudeOffset + -deltaY * mouseVerticalSpeed));
+		longitudeOffset = (longitudeOffset < 0.1f ? 0.1f : (longitudeOffset + deltaY * mouseVerticalSpeed));
 		longitudeOffset = (longitudeOffset > 2.5f ? 2.5f : longitudeOffset);
 
 		latitudeOffset = (latitudeOffset + -deltaX * mouseHorizontalSpeed)%(Mathf.PI*2);

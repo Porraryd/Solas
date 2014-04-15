@@ -17,6 +17,8 @@ public class CharacterControllerLogic : MonoBehaviour {
 	private float vertical = 0.0f;
 	private AnimatorStateInfo stateInfo;
 
+	private bool isFalling = false;
+	private float jumpHeight = 6.0f;
 	private int m_LocomotionId = 0;
 
 
@@ -42,7 +44,17 @@ public class CharacterControllerLogic : MonoBehaviour {
 		//get input from controller
 		horizontal = Input.GetAxis("Horizontal");
 		vertical = Input.GetAxis("Vertical");
+		if (Input.GetButton("Jump") && !isFalling)
+		{
+			
+			Jump();
+		}
 
+	}
+
+	void OnCollisionStay ()
+	{
+		isFalling = false;
 	}
 	
 	void FixedUpdate () 
@@ -97,6 +109,13 @@ public class CharacterControllerLogic : MonoBehaviour {
 				this.transform.rotation = (this.transform.rotation * deltaRotation);
 			}
 		}
+	}
+
+	public void Jump()
+	{
+		//Jumping
+		rigidbody.velocity = new Vector3(0,jumpHeight,0);
+		isFalling = true;
 	}
 
 	//checks if character is in locomotion (moving)

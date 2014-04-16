@@ -47,10 +47,14 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\Flower\FlowerCollider.cs" />
+     <Compile Include="Assets\Scripts\Flower\FlowerLightFlicker.cs" />
      <Compile Include="Assets\Scripts\Flower\FlowerPower.cs" />
      <Compile Include="Assets\Scripts\Flower\Rotator.cs" />
      <Compile Include="Assets\Scripts\Player and Camera\CharacterControllerLogic.cs" />
+     <Compile Include="Assets\Scripts\Player and Camera\PlayerPosUpdate.cs" />
      <Compile Include="Assets\Scripts\Player and Camera\ThirdPersonCamera.cs" />
+     <None Include="Assets\Shaders\TestShader.shader" />
+     <None Include="Assets\Shaders\SurfShader.shader" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

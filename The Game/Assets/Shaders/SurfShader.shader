@@ -3,8 +3,8 @@
         _MainTex ("Texture", 2D) = "white" {} // Regular object texture 
         _PlayerPosition ("Player Position", vector) = (0,0,0,0) // The location of the player - will be set by script
         _VisibleDistance ("Visibility Distance", float) = 10.0 // How close does the player have to be to make object visible
-        _OutlineWidth ("Outline Width", float) = 3.0 // Used to add an outline around visible area a la Mario Galaxy
-        _OutlineColor ("Outline Color", color) = (1.0,1.0,0.0,1.0) // Colour of the outline
+        _OutlineWidth ("Outline Width", float) = 1.0 // Outline width
+        _OutlineColor ("Outline Color", color) = (1.0,1.0,0.0,1.0) // Colour of the outline - NOT USED
         _Darkness("Darkness", float) = 0.3 //Darkness outside of radius
 	}
 	SubShader {
@@ -35,12 +35,15 @@
             //inside radius
             if (dist < _VisibleDistance) {
                 c = tex2D (_MainTex, IN.uv_MainTex); 
-                c *= 2;
+                c *= 1;
             }
             
             //outline
             else if (dist < _VisibleDistance + _OutlineWidth) {
-               c = (3.0,3.0,3.0); 
+               c = tex2D (_MainTex, IN.uv_MainTex);
+               float3 grayscale = _Darkness*((c.x+c.y+c.z)/3);
+               float gradient = ((dist-_VisibleDistance)/_OutlineWidth);
+               c.xyz = lerp(c.xyz, grayscale, gradient);
             }
             
             //outside of radius

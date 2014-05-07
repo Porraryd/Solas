@@ -12,7 +12,7 @@ SceneSettings:
     backfaceThreshold: 100
 --- !u!104 &2
 RenderSettings:
-  m_Fog: 0
+  m_Fog: 1
   m_FogColor: {r: 0, g: 0, b: 0, a: 1}
   m_FogMode: 3
   m_FogDensity: .0599999987
@@ -679,7 +679,7 @@ Light:
   serializedVersion: 3
   m_Type: 1
   m_Color: {r: .823529422, g: .82474643, b: 1, a: 1}
-  m_Intensity: 0
+  m_Intensity: .109999999
   m_Range: 10
   m_SpotAngle: 30
   m_CookieSize: 10
@@ -1155,7 +1155,7 @@ MonoBehaviour:
   directionSpeed: 3
   rotationDegreePerSecond: 120
   rotationSpeed: 10
-  jumphight: 10
+  jumpHeight: 12
 --- !u!114 &356901807
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3542,16 +3542,16 @@ Transform:
   m_LocalPosition: {x: 0, y: .5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 835335474}
-  - {fileID: 594627416}
-  - {fileID: 1077864857}
   - {fileID: 1344907376}
-  - {fileID: 928735589}
-  - {fileID: 793484315}
   - {fileID: 1204893196}
-  - {fileID: 23211183}
+  - {fileID: 835335474}
   - {fileID: 1338852236}
+  - {fileID: 23211183}
+  - {fileID: 1077864857}
+  - {fileID: 793484315}
+  - {fileID: 594627416}
   - {fileID: 1699363600}
+  - {fileID: 928735589}
   m_Father: {fileID: 0}
 --- !u!1 &1257133313
 GameObject:

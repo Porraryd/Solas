@@ -10,7 +10,6 @@ public class CharacterControllerLogic : MonoBehaviour {
 	public float directionSpeed = 3.0f;
 	public float rotationDegreePerSecond = 120f;
 	public float rotationSpeed = 10f;
-	public float jumphight = 10f;
 
 	private float speed = 0.0f;
 	private float horizontal = 0.0f;
@@ -18,7 +17,7 @@ public class CharacterControllerLogic : MonoBehaviour {
 	private AnimatorStateInfo stateInfo;
 
 	private bool isFalling = false;
-	private float jumpHeight = 6.0f;
+	public float jumpHeight = 6.0f;
 	private int m_LocomotionId = 0;
 
 

@@ -75,7 +75,7 @@ Material:
       data:
         first:
           name: _PlayerPosition
-        second: {r: 3.98949814, g: .00999991596, b: -2.48453736, a: 0}
+        second: {r: 1.38784395e-09, g: .00999993086, b: 1.76660597e-09, a: 0}
       data:
         first:
           name: _OutlineColour

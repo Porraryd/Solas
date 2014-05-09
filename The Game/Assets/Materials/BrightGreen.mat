@@ -37,8 +37,20 @@ Material:
     m_Floats:
       data:
         first:
+          name: _VisibleDistance
+        second: 2
+      data:
+        first:
+          name: _OutlineWidth
+        second: 2
+      data:
+        first:
           name: _Shininess
         second: .078125
+      data:
+        first:
+          name: _Darkness
+        second: 1
       data:
         first:
           name: _CirclesX
@@ -51,18 +63,6 @@ Material:
         first:
           name: _Fade
         second: .5
-      data:
-        first:
-          name: _VisibleDistance
-        second: 3.20000005
-      data:
-        first:
-          name: _OutlineWidth
-        second: 2
-      data:
-        first:
-          name: _Darkness
-        second: 1
     m_Colors:
       data:
         first:
@@ -70,16 +70,16 @@ Material:
         second: {r: .557200909, g: 1, b: .132352948, a: 1}
       data:
         first:
-          name: _SpecColor
-        second: {r: .654411793, g: .654411793, b: .654411793, a: 1}
-      data:
-        first:
           name: _PlayerPosition
-        second: {r: 5.87008858, g: 1.50999963, b: -3.80842304, a: 0}
+        second: {r: -45.9270706, g: .0099998787, b: 4.24018717, a: 0}
       data:
         first:
           name: _OutlineColour
         second: {r: 1, g: 1, b: 1, a: 0}
+      data:
+        first:
+          name: _SpecColor
+        second: {r: .654411793, g: .654411793, b: .654411793, a: 1}
       data:
         first:
           name: _OutlineColor

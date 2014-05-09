@@ -50,6 +50,9 @@
      <Compile Include="Assets\Scripts\Flower\FlowerLightFlicker.cs" />
      <Compile Include="Assets\Scripts\Flower\FlowerPower.cs" />
      <Compile Include="Assets\Scripts\Flower\Rotator.cs" />
+     <Compile Include="Assets\Scripts\Interact\drunkenChat.cs" />
+     <Compile Include="Assets\Scripts\Interact\personChat.cs" />
+     <Compile Include="Assets\Scripts\Interact\treeChat.cs" />
      <Compile Include="Assets\Scripts\Player and Camera\CharacterControllerLogic.cs" />
      <Compile Include="Assets\Scripts\Player and Camera\PlayerPosUpdate.cs" />
      <Compile Include="Assets\Scripts\Player and Camera\ThirdPersonCamera.cs" />

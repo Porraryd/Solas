@@ -10,6 +10,8 @@ public class CharacterControllerLogic : MonoBehaviour {
 	public float directionSpeed = 3.0f;
 	public float rotationDegreePerSecond = 120f;
 	public float rotationSpeed = 10f;
+	public Transform groundChecker;
+	public LayerMask whatIsGround;
 
 	private float speed = 0.0f;
 	private float horizontal = 0.0f;
@@ -50,15 +52,11 @@ public class CharacterControllerLogic : MonoBehaviour {
 		}
 
 	}
-
-	void OnCollisionStay ()
-	{
-		isFalling = false;
-	}
 	
 	void FixedUpdate () 
 	{
 
+		isFalling = !Physics.Raycast(groundChecker.position, new Vector3(0f, -1f,0f), 0.2f, whatIsGround);
 
 		if (animator) 
 		{
@@ -68,6 +66,8 @@ public class CharacterControllerLogic : MonoBehaviour {
 			//update the speed of the animation
 			animator.SetFloat ("speed", speed);
 		}
+
+		 
 
 	}
 
@@ -89,9 +89,9 @@ public class CharacterControllerLogic : MonoBehaviour {
 		Vector3 moveDirection = referentialShift * stickDirection;
 		Vector3 axisSign = Vector3.Cross(moveDirection, rootDirection);
 		
-		Debug.DrawRay(new Vector3(root.position.x, root.position.y + 2f, root.position.z), moveDirection, Color.green);
-		Debug.DrawRay(new Vector3(root.position.x, root.position.y + 2f, root.position.z), rootDirection, Color.magenta);
-		Debug.DrawRay(new Vector3(root.position.x, root.position.y + 2.5f, root.position.z), axisSign, Color.red);
+		//Debug.DrawRay(new Vector3(root.position.x, root.position.y + 2f, root.position.z), moveDirection, Color.green);
+		//Debug.DrawRay(new Vector3(root.position.x, root.position.y + 2f, root.position.z), rootDirection, Color.magenta);
+		//Debug.DrawRay(new Vector3(root.position.x, root.position.y + 2.5f, root.position.z), axisSign, Color.red);
 
 		float angleRootToMove;
 		if (speedOut < 0.05f) 
@@ -114,7 +114,7 @@ public class CharacterControllerLogic : MonoBehaviour {
 	{
 		//Jumping
 		rigidbody.velocity = new Vector3(0,jumpHeight,0);
-		isFalling = true;
+		//isFalling = true;
 	}
 
 	//checks if character is in locomotion (moving)

@@ -3,6 +3,8 @@ using System.Collections;
 
 public class PlayerPosUpdate : MonoBehaviour {
 
+	private float fadeSpeed = 0.1f;
+
 	public GameObject player;
 
 	// Use this for initialization
@@ -15,7 +17,9 @@ public class PlayerPosUpdate : MonoBehaviour {
 		if (player != null) {
 			// Pass the player location to the shader
 			renderer.sharedMaterial.SetVector("_PlayerPosition", player.transform.position);
-			renderer.sharedMaterial.SetFloat("_VisibleDistance", FlowerCollider.count*0.3f+2f);
+			float distance = renderer.sharedMaterial.GetFloat("_VisibleDistance");
+			distance = Mathf.Lerp(distance, FlowerCollider.count*0.5f+2f, fadeSpeed);
+			renderer.sharedMaterial.SetFloat("_VisibleDistance", distance);
 	}
 }
 }

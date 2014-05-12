@@ -4,20 +4,24 @@ using System.Collections;
 public class enemyAI : MonoBehaviour 
 {
 
-	public float speed = 2f;
-
+	bool attacking;
 	private Transform theTransform;
 	public Transform target;
 	private GameObject player;
 	private Animator animator;
-	
-	public float enemySpeed;
+	Vector3 direction;
+	Vector3 startPatrol;
+	Vector3 endPatrol;
+	float distance;
 
 	// Use this for initialization
 	void Awake ()
 	{
 		theTransform = transform;
 		animator = GetComponent<Animator>();
+		attacking = false;
+		endPatrol = theTransform.position + ((Vector3.left)*10);
+		startPatrol = theTransform.position;
 
 	}
 	void Start () 
@@ -25,25 +29,47 @@ public class enemyAI : MonoBehaviour
 
 		player = GameObject.FindGameObjectWithTag("Player");
 		target = player.transform;
-		
-	
 	}
 	
 	// Update is called once per frame
-	void Update () {
-		
+	void Update () 
+	{
+		distance = Vector3.Distance(endPatrol, theTransform.position);
+		if (!attacking)
+		{
+			patrolling();
+		}
+
 	}
 	void OnTriggerStay(Collider col)
 	{
 		
 		if (col.gameObject.tag == "Player")
 		{
-
-			Vector3 direction = target.position - theTransform.position;
+			attacking = true;
+			direction = target.position - theTransform.position;
 			direction.Normalize();
 			theTransform.LookAt(target);
-			//theTransform.position += direction * speed * Time.deltaTime;
 			animator.SetFloat ("speed", 1f);
 		}
+	}
+	void patrolling()
+	{
+
+			if (distance <= 15)
+			{
+				Debug.Log(distance);
+				direction = theTransform.position + Vector3.left;
+				direction.Normalize();
+				animator.SetFloat("speed", 1f);
+				//transform.LookAt(startPatrol)
+			}
+			else if (distance > 15)
+			{
+				transform.LookAt(startPatrol);
+				direction = theTransform.position + startPatrol;
+				direction.Normalize();
+				animator.SetFloat("speed", 1f);
+			}
 	}
 }

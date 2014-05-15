@@ -46,11 +46,18 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Attack\EnemyAttack.cs" />
+     <Compile Include="Assets\Scripts\Attack\EnemyHealth.cs" />
+     <Compile Include="Assets\Scripts\Attack\PlayerAttack.cs" />
+     <Compile Include="Assets\Scripts\Attack\PlayerHealth.cs" />
+     <Compile Include="Assets\Scripts\Attack\Targetting.cs" />
      <Compile Include="Assets\Scripts\Enemy\enemyAI.cs" />
      <Compile Include="Assets\Scripts\Flower\FlowerCollider.cs" />
      <Compile Include="Assets\Scripts\Flower\FlowerLightFlicker.cs" />
      <Compile Include="Assets\Scripts\Flower\FlowerPower.cs" />
      <Compile Include="Assets\Scripts\Flower\Rotator.cs" />
+     <Compile Include="Assets\Scripts\Follower\FollowerAI.cs" />
+     <Compile Include="Assets\Scripts\Follower\FollowerSight.cs" />
      <Compile Include="Assets\Scripts\Interact\drunkenChat.cs" />
      <Compile Include="Assets\Scripts\Interact\personChat.cs" />
      <Compile Include="Assets\Scripts\Interact\treeChat.cs" />

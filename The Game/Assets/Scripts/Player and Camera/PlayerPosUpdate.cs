@@ -7,6 +7,8 @@ public class PlayerPosUpdate : MonoBehaviour {
 
 	public GameObject player;
 
+	int count = 0;
+
 	// Use this for initialization
 	void Start () {
 	
@@ -14,11 +16,13 @@ public class PlayerPosUpdate : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+		count = PlayerHealth.curHealth;
+
 		if (player != null) {
 			// Pass the player location to the shader
 			renderer.sharedMaterial.SetVector("_PlayerPosition", player.transform.position);
 			float distance = renderer.sharedMaterial.GetFloat("_VisibleDistance");
-			distance = Mathf.Lerp(distance, FlowerCollider.count*0.5f+2f, fadeSpeed);
+			distance = Mathf.Lerp(distance, count*0.5f+2f, fadeSpeed);
 			renderer.sharedMaterial.SetFloat("_VisibleDistance", distance);
 	}
 }

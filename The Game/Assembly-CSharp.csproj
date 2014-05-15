@@ -62,10 +62,11 @@
      <Compile Include="Assets\Scripts\Interact\personChat.cs" />
      <Compile Include="Assets\Scripts\Interact\treeChat.cs" />
      <Compile Include="Assets\Scripts\Menu\pauseGame.cs" />
+     <Compile Include="Assets\Scripts\Menu\theBegin.cs" />
      <Compile Include="Assets\Scripts\Player and Camera\CharacterControllerLogic.cs" />
      <Compile Include="Assets\Scripts\Player and Camera\PlayerPosUpdate.cs" />
      <Compile Include="Assets\Scripts\Player and Camera\ThirdPersonCamera.cs" />
-     <None Include="Assets\Shaders\TestShader.shader" />
+     <None Include="Assets\Shaders\DarknessAlphaShader.shader" />
      <None Include="Assets\Shaders\SurfShader.shader" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

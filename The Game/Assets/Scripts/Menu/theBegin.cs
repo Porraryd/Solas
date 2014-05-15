@@ -25,13 +25,11 @@ public class theBegin : MonoBehaviour {
 		}
 		else if (this.name == "Instructions")
 		{
-			Debug.Log("KUUK");
 			Application.LoadLevel("InstructionScene");
 
 		}
 		else if (this.name == "Quit")
 		{
-			Debug.Log("HEJ");
 			Application.Quit();
 		}
 		

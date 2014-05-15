@@ -11,25 +11,21 @@ public class personChat : MonoBehaviour
     bool talking=false;
     private int currentLine;
     private string sentence = ""; 
-
-    
     private GameObject tree;
-    
  
     void Start () 
     {
       tree = GameObject.Find("myTree");
       tree.GetComponent<treeChat>().enabled=false;
     }
- 
+
     // Update is called once per frame
     void Update () 
     {
         if(talking)
         {
           if(Input.GetKeyDown(KeyCode.A))
-          {
-            
+          { 
             if (currentLine <= conversation.Length)
             {
                 currentLine++;
@@ -37,10 +33,9 @@ public class personChat : MonoBehaviour
             }
             else
             {
-              currentLine=0;
-              sentence="";
-              talking=false;
-
+              currentLine = 0;
+              sentence = "";
+              talking = false;
               tree.GetComponent<treeChat>().enabled = true;
             }
           }

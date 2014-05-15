@@ -25,7 +25,6 @@ public class pauseGame : MonoBehaviour
              	Time.timeScale =0;
             	 pause = true;
             	 checkPause++;
-
             }
             else
             {
@@ -34,14 +33,27 @@ public class pauseGame : MonoBehaviour
             	checkPause++;
             }
          }
-	
 	}
 	void OnGUI()
 	{
 		if (pause)
 		{
 			Debug.Log("KUKEN");
-			 GUI.Label(new Rect(Screen.width/2-50, Screen.height/2-25, 100, 50), "Game paused", largeFont);
+			 //GUI.Label(new Rect(Screen.width/2-50, Screen.height/2-25, 100, 50), "Game paused", largeFont);
+			 if (GUI.Button(new Rect(Screen.width/2-50, Screen.height/2-80, 100, 50), "Continue", largeFont))
+			 {
+			 	Time.timeScale = 1;
+			 	pause = false;
+			 	checkPause++;
+			 }
+			 else if(GUI.Button(new Rect(Screen.width/2-50, Screen.height/2-135, 100, 50), "Main menu", largeFont))
+			 {
+			 	Time.timeScale=1;
+			 	pause = false;
+			 	checkPause++;
+			 	Application.LoadLevel("Menu");
+			 }
 		}
 	}
+
 }

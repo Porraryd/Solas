@@ -21,10 +21,10 @@ public class PlayerPosUpdate : MonoBehaviour {
 
 		if (player != null) {
 			// Pass the player location to the shader
-			renderer.sharedMaterial.SetVector("_PlayerPosition", player.transform.position);
+			/*renderer.sharedMaterial.SetVector("_PlayerPosition", player.transform.position);
 			float distance = renderer.sharedMaterial.GetFloat("_VisibleDistance");
 			distance = Mathf.SmoothDamp(distance, count*0.5f+2f, ref yVelocity, fadeSpeed);
-			renderer.sharedMaterial.SetFloat("_VisibleDistance", distance);
+			renderer.sharedMaterial.SetFloat("_VisibleDistance", distance);*/
 	}
 }
 }

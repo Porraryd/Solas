@@ -1,8 +1,8 @@
 ﻿Shader "Custom/DarknessAlphaShader" {
 	Properties {
         _MainTex ("Texture", 2D) = "white" {} // Regular object texture 
-        _PlayerPosition ("Player Position", vector) = (0,0,0,0) // The location of the player - will be set by script
-        _VisibleDistance ("Visibility Distance", float) = 10.0 // How close does the player have to be to make object visible
+        //_PlayerPosition ("Player Position", vector) = (0,0,0,0) // The location of the player - will be set by script
+        //_VisibleDistance ("Visibility Distance", float) = 10.0 // How close does the player have to be to make object visible
         _OutlineWidth ("Outline Width", float) = 1.0 // Outline width
         //_OutlineColor ("Outline Color", color) = (1.0,1.0,0.0,1.0) // Colour of the outline - NOT USED
         _Darkness("Darkness", float) = 0.5 //Darkness outside of radius
@@ -34,8 +34,8 @@
 		};
 
 		void surf (Input IN, inout SurfaceOutput o) {
-			float dist = distance(IN.worldPos, _PlayerPosition.xyz);
-		
+			IN.worldPos.y = 0.0f;
+			float dist = length((IN.worldPos)-(_PlayerPosition));
 			half4 c;
             
             //inside radius

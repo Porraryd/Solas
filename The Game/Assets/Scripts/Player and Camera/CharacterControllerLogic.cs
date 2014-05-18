@@ -58,8 +58,13 @@ public class CharacterControllerLogic : MonoBehaviour {
 
 		isFalling = !Physics.Raycast(groundChecker.position, new Vector3(0f, -1f,0f), 0.2f, whatIsGround);
 
+
 		if (animator) 
 		{
+			if(isFalling)
+				animator.SetBool ("grounded", false);
+			else
+				animator.SetBool("grounded", true);
 			//transform the input to worldspace. 
 			StickToWorldspace(this.transform, gameCamera.transform, ref speed);
 			

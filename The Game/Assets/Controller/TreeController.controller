@@ -29,7 +29,7 @@ State:
   m_Speed: 1
   m_CycleOffset: 0
   m_Motions:
-  - {fileID: 7400000, guid: d451cd934b646ac40bf52931db287db7, type: 3}
+  - {fileID: 7400000, guid: 023636914ddb32843a6ee7fbcb007f5f, type: 3}
   m_ParentStateMachine: {fileID: 110700000}
   m_Position: {x: 36, y: 84, z: 0}
   m_IKOnFeet: 0

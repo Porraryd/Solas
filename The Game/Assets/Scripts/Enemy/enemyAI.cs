@@ -77,11 +77,13 @@ public class enemyAI : MonoBehaviour
 			}
 			else if (distance > 12)
 			{
+				
 				Debug.Log(distance);
 				transform.LookAt(startPatrol);
 				direction = theTransform.position + startPatrol;
 				direction.Normalize();
 				animator.SetFloat("speed", 1f);
+				countPatrols++;
 			}
 	}
 }

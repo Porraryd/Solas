@@ -5,14 +5,24 @@ public class pauseGame : MonoBehaviour
 {
 	bool pause;
 	public int checkPause;
-	GUIStyle largeFont;
+	GUIStyle myStyle;
+	GUIStyle myStyle2;
+	public Font myFont;
+	string hover;
 	// Use this for initialization
 	void Start () 
 	{
 		pause = false;
 		checkPause = 0;
-		largeFont = new GUIStyle();
-		largeFont.fontSize = 40;
+		myStyle = new GUIStyle();
+		myStyle.fontSize = 40;
+		myStyle.normal.textColor = Color.white;
+		myStyle.font = myFont;
+		myStyle2 = new GUIStyle();
+		myStyle2.fontSize = 40;
+		myStyle2.normal.textColor = Color.white;
+		myStyle2.font = myFont;
+
 	}
 	
 	// Update is called once per frame
@@ -36,24 +46,60 @@ public class pauseGame : MonoBehaviour
 	}
 	void OnGUI()
 	{
-		if (pause)
+		if (pause) //UGLY SHIT
 		{
-			Debug.Log("KUKEN");
-			 //GUI.Label(new Rect(Screen.width/2-50, Screen.height/2-25, 100, 50), "Game paused", largeFont);
-			 if (GUI.Button(new Rect(Screen.width/2-50, Screen.height/2-80, 100, 50), "Continue", largeFont))
+			Rect rect1 = new Rect(Screen.width/2-50, Screen.height/2-80, 100, 50);
+			Rect rect2 = new Rect(Screen.width/2-50, Screen.height/2-135, 100, 50);
+			Vector3 mousePosition = Input.mousePosition;
+			mousePosition.y = Screen.height - mousePosition.y;
+			 if (GUI.Button(rect1, "Continue", myStyle))
 			 {
+			 	
 			 	Time.timeScale = 1;
 			 	pause = false;
 			 	checkPause++;
+			 	
 			 }
-			 else if(GUI.Button(new Rect(Screen.width/2-50, Screen.height/2-135, 100, 50), "Main menu", largeFont))
+			 else if(GUI.Button(rect2, "Main menu", myStyle2))
 			 {
 			 	Time.timeScale=1;
 			 	pause = false;
 			 	checkPause++;
 			 	Application.LoadLevel("Menu");
 			 }
+			 if (rect1.Contains(mousePosition))
+			 {
+			 	myStyle.normal.textColor = Color.yellow;
+			 }
+			 else if (!(rect1.Contains(mousePosition)))
+			 {
+			 	myStyle.normal.textColor = Color.white;
+			 }
+			 if (rect2.Contains(mousePosition))
+			 {
+			 	myStyle2.normal.textColor = Color.yellow;
+			 }
+			 else if (!(rect2.Contains(mousePosition)))
+			 {
+			 	myStyle2.normal.textColor = Color.white;
+			 }
 		}
 	}
+		/*void OnMouseOver()
+	{
+		if (this.name == "Continue")
+		{
+			//startcolor = renderer.material.color;
+			renderer.material.color = Color.yellow;
+		}
+		else if (this.name == "Main menu")
+		{
+
+			//startcolor = renderer.material.color;
+			renderer.material.color = Color.yellow;
+		}
+	}*/
+
+
 
 }

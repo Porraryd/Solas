@@ -13,7 +13,7 @@ public class enemyAI : MonoBehaviour
 	Vector3 startPatrol;
 	Vector3 endPatrol;
 	float distance;
-
+	float countPatrols; //make the rotation stuff work
 	// Use this for initialization
 	void Awake ()
 	{
@@ -22,6 +22,7 @@ public class enemyAI : MonoBehaviour
 		attacking = false;
 		endPatrol = theTransform.position + ((Vector3.left)*10);
 		startPatrol = theTransform.position;
+		countPatrols = 0;
 
 	}
 	void Start () 
@@ -56,20 +57,33 @@ public class enemyAI : MonoBehaviour
 	void patrolling()
 	{
 
-			if (distance <= 15)
+			if (distance <= 12)
 			{
 				Debug.Log(distance);
-				direction = theTransform.position + Vector3.left;
-				direction.Normalize();
-				animator.SetFloat("speed", 1f);
-				//transform.LookAt(startPatrol)
+				if (countPatrols == 0) // dont rotate on the first run.
+				{
+					direction = theTransform.position + Vector3.left;
+					direction.Normalize();
+					animator.SetFloat("speed", 1f);
+					countPatrols++;
+				}
+				else
+				{
+					direction = theTransform.position + Vector3.left;
+					direction.Normalize();
+					animator.SetFloat("speed", 1f);
+					countPatrols++;
+				}				
 			}
-			else if (distance > 15)
+			else if (distance > 12)
 			{
+				
+				Debug.Log(distance);
 				transform.LookAt(startPatrol);
 				direction = theTransform.position + startPatrol;
 				direction.Normalize();
 				animator.SetFloat("speed", 1f);
+				countPatrols++;
 			}
 	}
 }

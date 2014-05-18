@@ -24,7 +24,11 @@ Material:
       data:
         first:
           name: _VisibleDistance
+<<<<<<< HEAD
+        second: 5.49949408
+=======
         second: 4.99999428
+>>>>>>> 980331ee2fbb361cd0fd256008b4186e59d69f88
       data:
         first:
           name: _OutlineWidth
@@ -41,4 +45,12 @@ Material:
       data:
         first:
           name: _PlayerPosition
+<<<<<<< HEAD
+        second: {r: -11.3077955, g: .00999996439, b: .838120222, a: 0}
+      data:
+        first:
+          name: _OutlineColor
+        second: {r: 1, g: 1, b: 0, a: 1}
+=======
         second: {r: 3.35362387, g: .00999987125, b: -3.82231808, a: 0}
+>>>>>>> 980331ee2fbb361cd0fd256008b4186e59d69f88

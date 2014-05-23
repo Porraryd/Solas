@@ -12,7 +12,7 @@ public class pauseGame : MonoBehaviour
 	// Use this for initialization
 	void Start () 
 	{
-		pause = false;
+		pause = false; 
 		checkPause = 0;
 		myStyle = new GUIStyle();
 		myStyle.fontSize = 40;

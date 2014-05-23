@@ -4,9 +4,9 @@ using System.Collections;
 public class FollowerAI : MonoBehaviour {
 
 	public Transform target;
-	public int moveSpeed;
-	public int rotationSpeed;
-	public int maxDistance;
+	public float moveSpeed;
+	public float rotationSpeed;
+	public float maxDistance = 10.0f;
 
 	bool attacking;
 	private GameObject player;
@@ -30,10 +30,9 @@ public class FollowerAI : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		player = GameObject.FindGameObjectWithTag("Player");
-
+		maxDistance = 10.0f;
 		target = player.transform;
 
-		maxDistance = 2;
 	
 	}
 	
@@ -42,22 +41,27 @@ public class FollowerAI : MonoBehaviour {
 		Debug.DrawLine (target.position, myTransform.position, Color.yellow);
 
 		//Look at target
-		myTransform.rotation = Quaternion.Slerp(myTransform.rotation, Quaternion.LookRotation
-		                                        (target.position - myTransform.position), 
+		Quaternion targetRotation = Quaternion.LookRotation (target.position - myTransform.position);
+		targetRotation.z = 0.0f;
+		targetRotation.x = 0.0f;
+		myTransform.rotation = Quaternion.Slerp(myTransform.rotation, targetRotation, 
 		                                        rotationSpeed * Time.deltaTime);
 
-		//distance = Vector3.Distance (endPatrol, myTransform.position);
+		distance = Vector3.Distance (endPatrol, myTransform.position);
 
 		/*if (!attacking) {
 			Patrolling();	
 		}*/
 
 		//möjlig kod för förföljande
-		if (Vector3.Distance (target.position, myTransform.position) > maxDistance) {
+		if (Vector3.Distance (target.position, myTransform.position) < maxDistance) {
 
-			//Move towards player
-			myTransform.position += myTransform.forward * moveSpeed * Time.deltaTime;
-		}
+						//Move towards player
+						animator.SetFloat ("speed", 1.0f);
+						myTransform.position += myTransform.forward * moveSpeed * Time.deltaTime;
+				} else {
+						animator.SetFloat ("speed", 0.0f);
+				}
 	}
 
 	void OnTriggerStay(Collider col){

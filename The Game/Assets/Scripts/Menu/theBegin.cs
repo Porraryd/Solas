@@ -35,7 +35,7 @@ public class theBegin : MonoBehaviour
 
 		if (this.name == "Play")
 		{
-			Application.LoadLevel("Einars gosscen");
+			Application.LoadLevel("Level 1");
 
 		}
 		else if (this.name == "Instructions")

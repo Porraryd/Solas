@@ -1,0 +1,208 @@
+fileFormatVersion: 2
+guid: 73b503e9a404df6449d0f182f20550cc
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: body
+    100002: Bone001
+    100004: Bone001 1
+    100006: Bone002
+    100008: Bone006
+    100010: Bone007
+    100012: Bone011
+    100014: Bone012
+    100016: Bone019
+    100018: Bone022
+    100020: Bone026
+    100022: Bone027
+    100024: Bone028
+    100026: BoneBackLeftFoot
+    100028: BoneBackLeftLowerLeg
+    100030: BoneBackLeftUpperLeg
+    100032: BoneBackLegRightFoot
+    100034: BoneBackLegRightLowerFoot
+    100036: BoneBackRightUpperLeg
+    100038: BoneCenter
+    100040: BoneFrontLeftLowerLeg
+    100042: BoneFrontLeftUpperLeg
+    100044: BoneFrontRightLowerLeg
+    100046: BoneHead
+    100048: BoneLeftFrontFoot
+    100050: bonelowerjaw
+    100052: BoneRightFrontFoot
+    100054: BoneRightFrontUpperLeg
+    100056: boneupperjaw
+    100058: //RootNode
+    400000: body
+    400002: Bone001
+    400004: Bone001 1
+    400006: Bone002
+    400008: Bone006
+    400010: Bone007
+    400012: Bone011
+    400014: Bone012
+    400016: Bone019
+    400018: Bone022
+    400020: Bone026
+    400022: Bone027
+    400024: Bone028
+    400026: BoneBackLeftFoot
+    400028: BoneBackLeftLowerLeg
+    400030: BoneBackLeftUpperLeg
+    400032: BoneBackLegRightFoot
+    400034: BoneBackLegRightLowerFoot
+    400036: BoneBackRightUpperLeg
+    400038: BoneCenter
+    400040: BoneFrontLeftLowerLeg
+    400042: BoneFrontLeftUpperLeg
+    400044: BoneFrontRightLowerLeg
+    400046: BoneHead
+    400048: BoneLeftFrontFoot
+    400050: bonelowerjaw
+    400052: BoneRightFrontFoot
+    400054: BoneRightFrontUpperLeg
+    400056: boneupperjaw
+    400058: //RootNode
+    4300000: body
+    7400000: DogWalk
+    9500000: //RootNode
+    13700000: body
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: DogWalk
+      takeName: Take 001
+      firstFrame: 31
+      lastFrame: 75
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: body
+        weight: 1
+      - path: BoneCenter
+        weight: 1
+      - path: BoneCenter/Bone001
+        weight: 1
+      - path: BoneCenter/Bone001/Bone002
+        weight: 1
+      - path: BoneCenter/Bone001/Bone002/BoneBackLeftUpperLeg
+        weight: 1
+      - path: BoneCenter/Bone001/Bone002/BoneBackLeftUpperLeg/BoneBackLeftLowerLeg
+        weight: 1
+      - path: BoneCenter/Bone001/Bone002/BoneBackLeftUpperLeg/BoneBackLeftLowerLeg/BoneBackLeftFoot
+        weight: 1
+      - path: BoneCenter/Bone006
+        weight: 1
+      - path: BoneCenter/Bone006/Bone007
+        weight: 1
+      - path: BoneCenter/Bone006/Bone007/BoneFrontLeftUpperLeg
+        weight: 1
+      - path: BoneCenter/Bone006/Bone007/BoneFrontLeftUpperLeg/BoneFrontLeftLowerLeg
+        weight: 1
+      - path: BoneCenter/Bone006/Bone007/BoneFrontLeftUpperLeg/BoneFrontLeftLowerLeg/BoneLeftFrontFoot
+        weight: 1
+      - path: BoneCenter/Bone006/Bone007/BoneFrontLeftUpperLeg/BoneFrontLeftLowerLeg/BoneLeftFrontFoot/Bone011
+        weight: 1
+      - path: BoneCenter/Bone012
+        weight: 1
+      - path: BoneCenter/Bone012/Bone001 1
+        weight: 1
+      - path: BoneCenter/Bone012/Bone001 1/bonelowerjaw
+        weight: 1
+      - path: BoneCenter/Bone012/BoneHead
+        weight: 1
+      - path: BoneCenter/Bone012/BoneHead/boneupperjaw
+        weight: 1
+      - path: BoneCenter/Bone022
+        weight: 1
+      - path: BoneCenter/Bone022/BoneBackRightUpperLeg
+        weight: 1
+      - path: BoneCenter/Bone022/BoneBackRightUpperLeg/Bone019
+        weight: 1
+      - path: BoneCenter/Bone022/BoneBackRightUpperLeg/Bone019/BoneBackLegRightLowerFoot
+        weight: 1
+      - path: BoneCenter/Bone022/BoneBackRightUpperLeg/Bone019/BoneBackLegRightLowerFoot/BoneBackLegRightFoot
+        weight: 1
+      - path: BoneCenter/Bone028
+        weight: 1
+      - path: BoneCenter/Bone028/Bone026
+        weight: 1
+      - path: BoneCenter/Bone028/Bone026/BoneRightFrontUpperLeg
+        weight: 1
+      - path: BoneCenter/Bone028/Bone026/BoneRightFrontUpperLeg/BoneFrontRightLowerLeg
+        weight: 1
+      - path: BoneCenter/Bone028/Bone026/BoneRightFrontUpperLeg/BoneFrontRightLowerLeg/BoneRightFrontFoot
+        weight: 1
+      - path: BoneCenter/Bone028/Bone026/BoneRightFrontUpperLeg/BoneFrontRightLowerLeg/BoneRightFrontFoot/Bone027
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .0299999993
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

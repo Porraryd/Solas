@@ -15,6 +15,10 @@ public class theBegin : MonoBehaviour
 	// Use this for initialization
 	void Start () 
 	{	
+		Shader.SetGlobalFloat ("_VisibleDistance", 10);
+		Vector4 playerpos = GameObject.Find("IntroPlayer").transform.position;
+		Shader.SetGlobalVector ("_PlayerPosition", playerpos);
+
 		startcolor = Color.white;
 		play = GameObject.Find("Play");
 		instructs = GameObject.Find("Instructions");
@@ -40,6 +44,7 @@ public class theBegin : MonoBehaviour
 
 		if (this.name == "Play")
 		{
+			Shader.SetGlobalFloat ("_VisibleDistance", 1);
 			Application.LoadLevel("Level 1");
 
 		}

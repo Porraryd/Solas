@@ -352,7 +352,7 @@ GameObject:
   - 136: {fileID: 8886290}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -706,7 +706,7 @@ GameObject:
   - 136: {fileID: 13974129}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1256,6 +1256,32 @@ Animator:
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
+--- !u!1 &20703205
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100006, guid: e97d0ac537c3704438d008cbf5a3cc4f, type: 2}
+  m_PrefabInternal: {fileID: 714070163}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 20703206}
+  m_Layer: 0
+  m_Name: Bone005
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &20703206
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400006, guid: e97d0ac537c3704438d008cbf5a3cc4f, type: 2}
+  m_PrefabInternal: {fileID: 714070163}
+  m_GameObject: {fileID: 20703205}
+  m_LocalRotation: {x: 2.18374167e-22, y: -8.13283546e-25, z: -.0037242407, w: .999993086}
+  m_LocalPosition: {x: -1.86059499, y: 4.76092112e-07, z: 4.69082401e-13}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 791845066}
 --- !u!1 &21092722
 GameObject:
   m_ObjectHideFlags: 0
@@ -1561,6 +1587,34 @@ SkinnedMeshRenderer:
     m_Center: {x: -3.87314105, y: .104445934, z: -.0192453861}
     m_Extent: {x: 3.4736588, y: 3.30594492, z: 3.20076084}
   m_DirtyAABB: 0
+--- !u!1 &25147194
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100014, guid: e97d0ac537c3704438d008cbf5a3cc4f, type: 2}
+  m_PrefabInternal: {fileID: 2058826744}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 25147195}
+  m_Layer: 0
+  m_Name: TR______D
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &25147195
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400014, guid: e97d0ac537c3704438d008cbf5a3cc4f, type: 2}
+  m_PrefabInternal: {fileID: 2058826744}
+  m_GameObject: {fileID: 25147194}
+  m_LocalRotation: {x: -.707106829, y: 0, z: -0, w: .707106829}
+  m_LocalPosition: {x: -.0991175696, y: 3.78792071, z: .0192452446}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1857181927}
+  - {fileID: 1922645959}
+  m_Father: {fileID: 687053770}
 --- !u!1 &25631669
 GameObject:
   m_ObjectHideFlags: 0
@@ -2256,6 +2310,58 @@ Prefab:
   m_RootGameObject: {fileID: 1208582999}
   m_IsPrefabParent: 0
   m_IsExploded: 1
+--- !u!1001 &44974071
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1766033003}
+    m_Modifications:
+    - target: {fileID: 400000, guid: e97d0ac537c3704438d008cbf5a3cc4f, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 75.9694061
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: e97d0ac537c3704438d008cbf5a3cc4f, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 1.6658299
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: e97d0ac537c3704438d008cbf5a3cc4f, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 37.4433289
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: e97d0ac537c3704438d008cbf5a3cc4f, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: e97d0ac537c3704438d008cbf5a3cc4f, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -.105982997
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: e97d0ac537c3704438d008cbf5a3cc4f, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: e97d0ac537c3704438d008cbf5a3cc4f, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: .994368017
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: e97d0ac537c3704438d008cbf5a3cc4f, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 2.0185411
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: e97d0ac537c3704438d008cbf5a3cc4f, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 2.0185411
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: e97d0ac537c3704438d008cbf5a3cc4f, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 2.0185411
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e97d0ac537c3704438d008cbf5a3cc4f, type: 2}
+  m_RootGameObject: {fileID: 629279032}
+  m_IsPrefabParent: 0
+  m_IsExploded: 1
 --- !u!1 &46430324
 GameObject:
   m_ObjectHideFlags: 0
@@ -2595,7 +2701,7 @@ GameObject:
   - 136: {fileID: 54058149}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2721,7 +2827,7 @@ GameObject:
   - 136: {fileID: 55369772}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2779,7 +2885,7 @@ GameObject:
   - 136: {fileID: 56346059}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2976,7 +3082,7 @@ GameObject:
   - 136: {fileID: 59027730}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3592,7 +3698,7 @@ GameObject:
   - 136: {fileID: 70273217}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3650,7 +3756,7 @@ GameObject:
   - 136: {fileID: 70855583}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3747,7 +3853,7 @@ Transform:
   m_PrefabParentObject: {fileID: 400076, guid: 3ca2acc01750f47289818553fdfb6bca, type: 2}
   m_PrefabInternal: {fileID: 2036962729}
   m_GameObject: {fileID: 71566398}
-  m_LocalRotation: {x: -.545443594, y: .621080637, z: .457471132, w: .327826619}
+  m_LocalRotation: {x: -.545443594, y: .621080637, z: .457471102, w: .327826619}
   m_LocalPosition: {x: -.107635342, y: .130502462, z: -.0560200885}
   m_LocalScale: {x: 2.14091921, y: 1.00000072, z: 1.00000036}
   m_Children: []
@@ -4827,7 +4933,7 @@ GameObject:
   - 136: {fileID: 89213583}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4885,7 +4991,7 @@ GameObject:
   - 136: {fileID: 89981859}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5668,6 +5774,71 @@ Transform:
   - {fileID: 295142366}
   - {fileID: 859150616}
   m_Father: {fileID: 1158225180}
+--- !u!1 &106721168
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100002, guid: e97d0ac537c3704438d008cbf5a3cc4f, type: 2}
+  m_PrefabInternal: {fileID: 714070163}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 106721169}
+  - 137: {fileID: 106721170}
+  m_Layer: 0
+  m_Name: stam
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &106721169
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400002, guid: e97d0ac537c3704438d008cbf5a3cc4f, type: 2}
+  m_PrefabInternal: {fileID: 714070163}
+  m_GameObject: {fileID: 106721168}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: .0991175696, y: .0192452446, z: -3.78792071}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1217762369}
+--- !u!137 &106721170
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 13700000, guid: e97d0ac537c3704438d008cbf5a3cc4f,
+    type: 2}
+  m_PrefabInternal: {fileID: 714070163}
+  m_GameObject: {fileID: 106721168}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: 5948cac1805964cc8b6473cef063cd36, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_SortingLayerID: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_Mesh: {fileID: 4300000, guid: 023636914ddb32843a6ee7fbcb007f5f, type: 3}
+  m_Bones:
+  - {fileID: 1713888600}
+  - {fileID: 623042466}
+  - {fileID: 617316711}
+  - {fileID: 791845066}
+  - {fileID: 20703206}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 1713888600}
+  m_AABB:
+    m_Center: {x: -3.24819946, y: -.115859151, z: .0664283037}
+    m_Extent: {x: 3.25012636, y: 2.58760262, z: 2.55362511}
+  m_DirtyAABB: 0
 --- !u!1 &106722999
 GameObject:
   m_ObjectHideFlags: 0
@@ -6008,7 +6179,7 @@ GameObject:
   - 136: {fileID: 112526680}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6624,7 +6795,7 @@ GameObject:
   - 136: {fileID: 120614166}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6938,7 +7109,7 @@ Transform:
   m_PrefabParentObject: {fileID: 400032, guid: 3ca2acc01750f47289818553fdfb6bca, type: 2}
   m_PrefabInternal: {fileID: 1287471570}
   m_GameObject: {fileID: 129758828}
-  m_LocalRotation: {x: -3.44151441e-09, y: 2.78014634e-09, z: .316032678, w: .948748291}
+  m_LocalRotation: {x: -3.44151463e-09, y: 2.78014656e-09, z: .316032708, w: .94874835}
   m_LocalPosition: {x: -.290074021, y: -2.86102289e-08, z: 0}
   m_LocalScale: {x: 1, y: 1.00000012, z: .99999994}
   m_Children:
@@ -7304,7 +7475,7 @@ GameObject:
   - 136: {fileID: 139731403}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7388,7 +7559,7 @@ GameObject:
   - 136: {fileID: 140429189}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7446,7 +7617,7 @@ GameObject:
   - 136: {fileID: 141251474}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8486,6 +8657,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c38612ceb2ae463ea21ca945d281b64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 0}
   target: {fileID: 1369752326}
   attackTimer: 0
   coolDown: 2
@@ -8496,7 +8668,7 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 2036962729}
   m_GameObject: {fileID: 160712040}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 05f45c69bbeac47509d879a115b26ddf, type: 3}
   m_Name: 
@@ -8517,7 +8689,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 0}
-  moveSpeed: .5
+  moveSpeed: 1.5
   rotationSpeed: 4
   maxDistance: 0
 --- !u!1 &162007827
@@ -9485,7 +9657,7 @@ GameObject:
   - 136: {fileID: 184389482}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9806,7 +9978,7 @@ GameObject:
   - 136: {fileID: 189732779}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10709,7 +10881,7 @@ GameObject:
   - 136: {fileID: 207912115}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11048,6 +11220,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c38612ceb2ae463ea21ca945d281b64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 0}
   target: {fileID: 1369752326}
   attackTimer: 0
   coolDown: 2
@@ -11058,7 +11231,7 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 1766767478}
   m_GameObject: {fileID: 212078759}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 05f45c69bbeac47509d879a115b26ddf, type: 3}
   m_Name: 
@@ -11079,7 +11252,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 0}
-  moveSpeed: .5
+  moveSpeed: 1.5
   rotationSpeed: 4
   maxDistance: 0
 --- !u!1 &212244060
@@ -12142,7 +12315,7 @@ GameObject:
   - 136: {fileID: 238496107}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13406,6 +13579,33 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1489550273}
+--- !u!1 &268449120
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100044, guid: e97d0ac537c3704438d008cbf5a3cc4f, type: 2}
+  m_PrefabInternal: {fileID: 44974071}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 268449121}
+  m_Layer: 0
+  m_Name: Bone004
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &268449121
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400044, guid: e97d0ac537c3704438d008cbf5a3cc4f, type: 2}
+  m_PrefabInternal: {fileID: 44974071}
+  m_GameObject: {fileID: 268449120}
+  m_LocalRotation: {x: -2.86409792e-14, y: -1.80889378e-16, z: .00886580441, w: .999960721}
+  m_LocalPosition: {x: -1.45669663, y: 3.18512321e-07, z: -4.2256037e-13}
+  m_LocalScale: {x: .99999994, y: .99999994, z: 1}
+  m_Children:
+  - {fileID: 439272349}
+  m_Father: {fileID: 1642762175}
 --- !u!1 &270025487
 GameObject:
   m_ObjectHideFlags: 0
@@ -15507,7 +15707,7 @@ GameObject:
   - 136: {fileID: 317621492}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15903,7 +16103,7 @@ GameObject:
   - 136: {fileID: 326043671}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16579,6 +16779,50 @@ Transform:
   m_Children:
   - {fileID: 337454402}
   m_Father: {fileID: 1159051897}
+--- !u!1 &333177642
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100018, guid: e97d0ac537c3704438d008cbf5a3cc4f, type: 2}
+  m_PrefabInternal: {fileID: 44974071}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 333177643}
+  - 95: {fileID: 333177644}
+  m_Layer: 0
+  m_Name: gran v2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &333177643
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400018, guid: e97d0ac537c3704438d008cbf5a3cc4f, type: 2}
+  m_PrefabInternal: {fileID: 44974071}
+  m_GameObject: {fileID: 333177642}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1660290895}
+  - {fileID: 1570421459}
+  m_Father: {fileID: 629279033}
+--- !u!95 &333177644
+Animator:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 9500000, guid: e97d0ac537c3704438d008cbf5a3cc4f,
+    type: 2}
+  m_PrefabInternal: {fileID: 44974071}
+  m_GameObject: {fileID: 333177642}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: 023636914ddb32843a6ee7fbcb007f5f, type: 3}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 1
+  m_ApplyRootMotion: 1
+  m_AnimatePhysics: 0
+  m_HasTransformHierarchy: 1
 --- !u!1 &333981193
 GameObject:
   m_ObjectHideFlags: 0
@@ -16731,7 +16975,7 @@ GameObject:
   - 136: {fileID: 340359685}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16816,7 +17060,7 @@ GameObject:
   - 136: {fileID: 341821177}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17333,7 +17577,7 @@ GameObject:
   - 136: {fileID: 348672242}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17622,7 +17866,7 @@ GameObject:
   - 136: {fileID: 353964639}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18407,7 +18651,19 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11400012, guid: 8e2b2ded5530f4079b442b8c000facda, type: 2}
       propertyPath: debugMode
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 8e2b2ded5530f4079b442b8c000facda, type: 2}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
+    - target: {fileID: 1500000, guid: 8e2b2ded5530f4079b442b8c000facda, type: 2}
+      propertyPath: minEmission
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1500000, guid: 8e2b2ded5530f4079b442b8c000facda, type: 2}
+      propertyPath: maxEmission
+      value: 15
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8e2b2ded5530f4079b442b8c000facda, type: 2}
@@ -18661,7 +18917,7 @@ GameObject:
   - 136: {fileID: 371329394}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19035,6 +19291,32 @@ Transform:
   m_Children:
   - {fileID: 328973378}
   m_Father: {fileID: 1311723114}
+--- !u!1 &382676398
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100006, guid: e97d0ac537c3704438d008cbf5a3cc4f, type: 2}
+  m_PrefabInternal: {fileID: 2058826744}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 382676399}
+  m_Layer: 0
+  m_Name: Bone005
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &382676399
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400006, guid: e97d0ac537c3704438d008cbf5a3cc4f, type: 2}
+  m_PrefabInternal: {fileID: 2058826744}
+  m_GameObject: {fileID: 382676398}
+  m_LocalRotation: {x: 2.18374167e-22, y: -8.13283546e-25, z: -.0037242407, w: .999993086}
+  m_LocalPosition: {x: -1.86059499, y: 4.76092112e-07, z: 4.69082401e-13}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 961086134}
 --- !u!1 &383744070
 GameObject:
   m_ObjectHideFlags: 0
@@ -19389,7 +19671,7 @@ GameObject:
   - 136: {fileID: 390857213}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19538,7 +19820,7 @@ GameObject:
   - 136: {fileID: 393603875}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20083,7 +20365,7 @@ GameObject:
   - 136: {fileID: 406076144}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20601,7 +20883,7 @@ GameObject:
   - 136: {fileID: 411813594}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20687,7 +20969,7 @@ GameObject:
   - 136: {fileID: 414218873}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21813,6 +22095,32 @@ Transform:
   m_LocalScale: {x: 2, y: 1, z: 3}
   m_Children: []
   m_Father: {fileID: 0}
+--- !u!1 &439272348
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100006, guid: e97d0ac537c3704438d008cbf5a3cc4f, type: 2}
+  m_PrefabInternal: {fileID: 44974071}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 439272349}
+  m_Layer: 0
+  m_Name: Bone005
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &439272349
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400006, guid: e97d0ac537c3704438d008cbf5a3cc4f, type: 2}
+  m_PrefabInternal: {fileID: 44974071}
+  m_GameObject: {fileID: 439272348}
+  m_LocalRotation: {x: 2.18374167e-22, y: -8.13283546e-25, z: -.0037242407, w: .999993086}
+  m_LocalPosition: {x: -1.86059499, y: 4.76092112e-07, z: 4.69082401e-13}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 268449121}
 --- !u!1 &439799637
 GameObject:
   m_ObjectHideFlags: 0
@@ -21852,7 +22160,7 @@ GameObject:
   - 136: {fileID: 439943704}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22547,6 +22855,33 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2003471252}
+--- !u!1 &463443617
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100048, guid: e97d0ac537c3704438d008cbf5a3cc4f, type: 2}
+  m_PrefabInternal: {fileID: 2058826744}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 463443618}
+  m_Layer: 0
+  m_Name: Bone002
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &463443618
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400048, guid: e97d0ac537c3704438d008cbf5a3cc4f, type: 2}
+  m_PrefabInternal: {fileID: 2058826744}
+  m_GameObject: {fileID: 463443617}
+  m_LocalRotation: {x: 3.19878097e-07, y: -7.58082319e-10, z: .00236963993, w: .999997199}
+  m_LocalPosition: {x: -.243848816, y: 3.96743438e-08, z: -3.83693084e-14}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1504435258}
+  m_Father: {fileID: 756238271}
 --- !u!1 &464262024
 GameObject:
   m_ObjectHideFlags: 0
@@ -22736,7 +23071,7 @@ GameObject:
   - 136: {fileID: 467269596}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22821,7 +23156,7 @@ GameObject:
   - 136: {fileID: 469553851}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23130,7 +23465,7 @@ GameObject:
   - 136: {fileID: 475489507}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23200,7 +23535,7 @@ Transform:
   m_PrefabParentObject: {fileID: 400076, guid: 3ca2acc01750f47289818553fdfb6bca, type: 2}
   m_PrefabInternal: {fileID: 117807942}
   m_GameObject: {fileID: 476082300}
-  m_LocalRotation: {x: -.545443594, y: .621080637, z: .457471132, w: .327826619}
+  m_LocalRotation: {x: -.545443594, y: .621080637, z: .457471102, w: .327826619}
   m_LocalPosition: {x: -.107635342, y: .130502462, z: -.0560200885}
   m_LocalScale: {x: 2.14091921, y: 1.00000072, z: 1.00000036}
   m_Children: []
@@ -23373,7 +23708,7 @@ GameObject:
   - 136: {fileID: 477661414}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23611,7 +23946,7 @@ GameObject:
   - 136: {fileID: 482846287}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24852,7 +25187,7 @@ Transform:
   m_PrefabParentObject: {fileID: 400076, guid: 3ca2acc01750f47289818553fdfb6bca, type: 2}
   m_PrefabInternal: {fileID: 1287471570}
   m_GameObject: {fileID: 521936585}
-  m_LocalRotation: {x: -.545443594, y: .621080637, z: .457471132, w: .327826619}
+  m_LocalRotation: {x: -.545443594, y: .621080637, z: .457471102, w: .327826619}
   m_LocalPosition: {x: -.107635342, y: .130502462, z: -.0560200885}
   m_LocalScale: {x: 2.14091921, y: 1.00000072, z: 1.00000036}
   m_Children: []
@@ -25479,7 +25814,7 @@ GameObject:
   - 136: {fileID: 534852335}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25563,7 +25898,7 @@ GameObject:
   - 136: {fileID: 536575754}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26142,7 +26477,7 @@ Transform:
   m_PrefabParentObject: {fileID: 400076, guid: 3ca2acc01750f47289818553fdfb6bca, type: 2}
   m_PrefabInternal: {fileID: 1766767478}
   m_GameObject: {fileID: 545555350}
-  m_LocalRotation: {x: -.545443594, y: .621080637, z: .457471132, w: .327826619}
+  m_LocalRotation: {x: -.545443594, y: .621080637, z: .457471102, w: .327826619}
   m_LocalPosition: {x: -.107635342, y: .130502462, z: -.0560200885}
   m_LocalScale: {x: 2.14091921, y: 1.00000072, z: 1.00000036}
   m_Children: []
@@ -26727,7 +27062,7 @@ GameObject:
   - 136: {fileID: 560641673}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27325,7 +27660,7 @@ Transform:
   m_PrefabParentObject: {fileID: 400032, guid: 3ca2acc01750f47289818553fdfb6bca, type: 2}
   m_PrefabInternal: {fileID: 345171659}
   m_GameObject: {fileID: 574379796}
-  m_LocalRotation: {x: -3.44151441e-09, y: 2.78014634e-09, z: .316032678, w: .948748291}
+  m_LocalRotation: {x: -3.44151463e-09, y: 2.78014656e-09, z: .316032708, w: .94874835}
   m_LocalPosition: {x: -.290074021, y: -2.86102289e-08, z: 0}
   m_LocalScale: {x: 1, y: 1.00000012, z: .99999994}
   m_Children:
@@ -27370,7 +27705,7 @@ GameObject:
   - 136: {fileID: 575373154}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28051,7 +28386,7 @@ GameObject:
   - 136: {fileID: 592265827}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28778,6 +29113,33 @@ Transform:
   m_Children:
   - {fileID: 563865015}
   m_Father: {fileID: 1410172841}
+--- !u!1 &617316710
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100046, guid: e97d0ac537c3704438d008cbf5a3cc4f, type: 2}
+  m_PrefabInternal: {fileID: 714070163}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 617316711}
+  m_Layer: 0
+  m_Name: Bone003
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &617316711
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400046, guid: e97d0ac537c3704438d008cbf5a3cc4f, type: 2}
+  m_PrefabInternal: {fileID: 714070163}
+  m_GameObject: {fileID: 617316710}
+  m_LocalRotation: {x: -2.91498325e-14, y: -5.91948162e-14, z: -.00862412155, w: .999962807}
+  m_LocalPosition: {x: -.69530654, y: -1.30198899e-07, z: -3.04251626e-14}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 791845066}
+  m_Father: {fileID: 623042466}
 --- !u!1001 &618301139
 Prefab:
   m_ObjectHideFlags: 0
@@ -29043,6 +29405,33 @@ Transform:
   m_LocalScale: {x: 1, y: 1.00000012, z: 1.00000012}
   m_Children: []
   m_Father: {fileID: 305097697}
+--- !u!1 &623042465
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100048, guid: e97d0ac537c3704438d008cbf5a3cc4f, type: 2}
+  m_PrefabInternal: {fileID: 714070163}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 623042466}
+  m_Layer: 0
+  m_Name: Bone002
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &623042466
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400048, guid: e97d0ac537c3704438d008cbf5a3cc4f, type: 2}
+  m_PrefabInternal: {fileID: 714070163}
+  m_GameObject: {fileID: 623042465}
+  m_LocalRotation: {x: 3.19878097e-07, y: -7.58082319e-10, z: .00236963993, w: .999997199}
+  m_LocalPosition: {x: -.243848816, y: 3.96743438e-08, z: -3.83693084e-14}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 617316711}
+  m_Father: {fileID: 1713888600}
 --- !u!1001 &623158960
 Prefab:
   m_ObjectHideFlags: 0
@@ -29378,6 +29767,64 @@ Transform:
   m_Children:
   - {fileID: 429891325}
   m_Father: {fileID: 479602921}
+--- !u!1 &629279032
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: e97d0ac537c3704438d008cbf5a3cc4f, type: 2}
+  m_PrefabInternal: {fileID: 44974071}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 629279033}
+  - 95: {fileID: 629279035}
+  - 136: {fileID: 629279034}
+  m_Layer: 0
+  m_Name: Gran
+  m_TagString: Tree
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &629279033
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400000, guid: e97d0ac537c3704438d008cbf5a3cc4f, type: 2}
+  m_PrefabInternal: {fileID: 44974071}
+  m_GameObject: {fileID: 629279032}
+  m_LocalRotation: {x: 0, y: -.105982997, z: 0, w: .994368017}
+  m_LocalPosition: {x: 75.9694061, y: 1.6658299, z: 37.4433289}
+  m_LocalScale: {x: 2.0185411, y: 2.0185411, z: 2.0185411}
+  m_Children:
+  - {fileID: 333177643}
+  m_Father: {fileID: 1766033003}
+--- !u!136 &629279034
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 13600000, guid: e97d0ac537c3704438d008cbf5a3cc4f,
+    type: 2}
+  m_PrefabInternal: {fileID: 44974071}
+  m_GameObject: {fileID: 629279032}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 2.6500001
+  m_Height: 9.19999981
+  m_Direction: 1
+  m_Center: {x: 0, y: 2.49000001, z: 0}
+--- !u!95 &629279035
+Animator:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 9500002, guid: e97d0ac537c3704438d008cbf5a3cc4f,
+    type: 2}
+  m_PrefabInternal: {fileID: 44974071}
+  m_GameObject: {fileID: 629279032}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: 023636914ddb32843a6ee7fbcb007f5f, type: 3}
+  m_Controller: {fileID: 9100000, guid: 9ce52338c6cf4574b8a6d22b022887ef, type: 2}
+  m_CullingMode: 0
+  m_ApplyRootMotion: 1
+  m_AnimatePhysics: 0
+  m_HasTransformHierarchy: 1
 --- !u!1 &630911761
 GameObject:
   m_ObjectHideFlags: 0
@@ -29515,7 +29962,7 @@ Transform:
   m_PrefabParentObject: {fileID: 400076, guid: 3ca2acc01750f47289818553fdfb6bca, type: 2}
   m_PrefabInternal: {fileID: 1419733102}
   m_GameObject: {fileID: 635071012}
-  m_LocalRotation: {x: -.545443594, y: .621080637, z: .457471132, w: .327826619}
+  m_LocalRotation: {x: -.545443594, y: .621080637, z: .457471102, w: .327826619}
   m_LocalPosition: {x: -.107635342, y: .130502462, z: -.0560200885}
   m_LocalScale: {x: 2.14091921, y: 1.00000072, z: 1.00000036}
   m_Children: []
@@ -29598,7 +30045,7 @@ GameObject:
   - 136: {fileID: 635733542}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29930,7 +30377,7 @@ GameObject:
   - 136: {fileID: 640546748}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30073,7 +30520,7 @@ GameObject:
   - 136: {fileID: 641776445}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30600,7 +31047,7 @@ GameObject:
   - 136: {fileID: 652856336}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30837,7 +31284,7 @@ GameObject:
   - 136: {fileID: 661272509}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31742,6 +32189,50 @@ MeshFilter:
   m_PrefabInternal: {fileID: 737703704}
   m_GameObject: {fileID: 686122729}
   m_Mesh: {fileID: 4300016, guid: bd2bcc7f2f8beb348b57ae13c869ecb2, type: 3}
+--- !u!1 &687053769
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100018, guid: e97d0ac537c3704438d008cbf5a3cc4f, type: 2}
+  m_PrefabInternal: {fileID: 2058826744}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 687053770}
+  - 95: {fileID: 687053771}
+  m_Layer: 0
+  m_Name: gran v2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &687053770
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400018, guid: e97d0ac537c3704438d008cbf5a3cc4f, type: 2}
+  m_PrefabInternal: {fileID: 2058826744}
+  m_GameObject: {fileID: 687053769}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 756238271}
+  - {fileID: 25147195}
+  m_Father: {fileID: 961595338}
+--- !u!95 &687053771
+Animator:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 9500000, guid: e97d0ac537c3704438d008cbf5a3cc4f,
+    type: 2}
+  m_PrefabInternal: {fileID: 2058826744}
+  m_GameObject: {fileID: 687053769}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: 023636914ddb32843a6ee7fbcb007f5f, type: 3}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 1
+  m_ApplyRootMotion: 1
+  m_AnimatePhysics: 0
+  m_HasTransformHierarchy: 1
 --- !u!1 &688246251
 GameObject:
   m_ObjectHideFlags: 0
@@ -31842,7 +32333,7 @@ Transform:
   m_PrefabParentObject: {fileID: 400032, guid: 3ca2acc01750f47289818553fdfb6bca, type: 2}
   m_PrefabInternal: {fileID: 1419733102}
   m_GameObject: {fileID: 690154371}
-  m_LocalRotation: {x: -3.44151441e-09, y: 2.78014634e-09, z: .316032678, w: .948748291}
+  m_LocalRotation: {x: -3.44151463e-09, y: 2.78014656e-09, z: .316032708, w: .94874835}
   m_LocalPosition: {x: -.290074021, y: -2.86102289e-08, z: 0}
   m_LocalScale: {x: 1, y: 1.00000012, z: .99999994}
   m_Children:
@@ -31982,7 +32473,7 @@ GameObject:
   - 136: {fileID: 693314112}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32384,7 +32875,7 @@ GameObject:
   - 136: {fileID: 700902220}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32901,6 +33392,58 @@ Prefab:
   m_RootGameObject: {fileID: 881003838}
   m_IsPrefabParent: 0
   m_IsExploded: 1
+--- !u!1001 &714070163
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1766033003}
+    m_Modifications:
+    - target: {fileID: 400000, guid: e97d0ac537c3704438d008cbf5a3cc4f, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 92.7012787
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: e97d0ac537c3704438d008cbf5a3cc4f, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 1.6658299
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: e97d0ac537c3704438d008cbf5a3cc4f, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 38.8175583
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: e97d0ac537c3704438d008cbf5a3cc4f, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: e97d0ac537c3704438d008cbf5a3cc4f, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -.105982997
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: e97d0ac537c3704438d008cbf5a3cc4f, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: e97d0ac537c3704438d008cbf5a3cc4f, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: .994368017
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: e97d0ac537c3704438d008cbf5a3cc4f, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 2.0185411
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: e97d0ac537c3704438d008cbf5a3cc4f, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 2.0185411
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: e97d0ac537c3704438d008cbf5a3cc4f, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 2.0185411
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e97d0ac537c3704438d008cbf5a3cc4f, type: 2}
+  m_RootGameObject: {fileID: 2108435525}
+  m_IsPrefabParent: 0
+  m_IsExploded: 1
 --- !u!1 &714186295
 GameObject:
   m_ObjectHideFlags: 0
@@ -33178,6 +33721,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c38612ceb2ae463ea21ca945d281b64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 0}
   target: {fileID: 1369752326}
   attackTimer: 0
   coolDown: 2
@@ -33188,7 +33732,7 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 1419733102}
   m_GameObject: {fileID: 717689104}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 05f45c69bbeac47509d879a115b26ddf, type: 3}
   m_Name: 
@@ -33209,7 +33753,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 0}
-  moveSpeed: .5
+  moveSpeed: 1.5
   rotationSpeed: 4
   maxDistance: 0
 --- !u!1 &718286645
@@ -34421,7 +34965,7 @@ GameObject:
   - 136: {fileID: 749339582}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34860,6 +35404,33 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 919581526}
+--- !u!1 &756238270
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100016, guid: e97d0ac537c3704438d008cbf5a3cc4f, type: 2}
+  m_PrefabInternal: {fileID: 2058826744}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 756238271}
+  m_Layer: 0
+  m_Name: Bone001
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &756238271
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400016, guid: e97d0ac537c3704438d008cbf5a3cc4f, type: 2}
+  m_PrefabInternal: {fileID: 2058826744}
+  m_GameObject: {fileID: 756238270}
+  m_LocalRotation: {x: .707106829, y: -.707106829, z: -2.2618859e-07, w: 2.2618859e-07}
+  m_LocalPosition: {x: .00335991406, y: .001926756, z: 8.89794566e-19}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 463443618}
+  m_Father: {fileID: 687053770}
 --- !u!1 &756795621
 GameObject:
   m_ObjectHideFlags: 0
@@ -35623,7 +36194,7 @@ GameObject:
   - 136: {fileID: 779729563}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35956,7 +36527,7 @@ GameObject:
   - 136: {fileID: 785174937}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36361,6 +36932,33 @@ MeshFilter:
   m_PrefabInternal: {fileID: 889118560}
   m_GameObject: {fileID: 791108709}
   m_Mesh: {fileID: 4300002, guid: bd2bcc7f2f8beb348b57ae13c869ecb2, type: 3}
+--- !u!1 &791845065
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100044, guid: e97d0ac537c3704438d008cbf5a3cc4f, type: 2}
+  m_PrefabInternal: {fileID: 714070163}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 791845066}
+  m_Layer: 0
+  m_Name: Bone004
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &791845066
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400044, guid: e97d0ac537c3704438d008cbf5a3cc4f, type: 2}
+  m_PrefabInternal: {fileID: 714070163}
+  m_GameObject: {fileID: 791845065}
+  m_LocalRotation: {x: -2.86409792e-14, y: -1.80889378e-16, z: .00886580441, w: .999960721}
+  m_LocalPosition: {x: -1.45669663, y: 3.18512321e-07, z: -4.2256037e-13}
+  m_LocalScale: {x: .99999994, y: .99999994, z: 1}
+  m_Children:
+  - {fileID: 20703206}
+  m_Father: {fileID: 617316711}
 --- !u!1 &793052274
 GameObject:
   m_ObjectHideFlags: 0
@@ -36505,7 +37103,7 @@ GameObject:
   - 136: {fileID: 796826838}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36859,7 +37457,7 @@ GameObject:
   - 136: {fileID: 804314506}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -37634,6 +38232,33 @@ Transform:
   - {fileID: 738458592}
   - {fileID: 1152280744}
   m_Father: {fileID: 17424374}
+--- !u!1 &824335352
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100048, guid: e97d0ac537c3704438d008cbf5a3cc4f, type: 2}
+  m_PrefabInternal: {fileID: 44974071}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 824335353}
+  m_Layer: 0
+  m_Name: Bone002
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &824335353
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400048, guid: e97d0ac537c3704438d008cbf5a3cc4f, type: 2}
+  m_PrefabInternal: {fileID: 44974071}
+  m_GameObject: {fileID: 824335352}
+  m_LocalRotation: {x: 3.19878097e-07, y: -7.58082319e-10, z: .00236963993, w: .999997199}
+  m_LocalPosition: {x: -.243848816, y: 3.96743438e-08, z: -3.83693084e-14}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1642762175}
+  m_Father: {fileID: 1660290895}
 --- !u!1 &825261267
 GameObject:
   m_ObjectHideFlags: 0
@@ -38980,7 +39605,7 @@ GameObject:
   - 136: {fileID: 860931608}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -39231,7 +39856,7 @@ GameObject:
   - 136: {fileID: 864161295}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -39394,6 +40019,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c38612ceb2ae463ea21ca945d281b64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 0}
   target: {fileID: 1369752326}
   attackTimer: 0
   coolDown: 0
@@ -39641,7 +40267,7 @@ GameObject:
   - 136: {fileID: 872853460}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -39845,7 +40471,7 @@ Transform:
   m_PrefabParentObject: {fileID: 400032, guid: 3ca2acc01750f47289818553fdfb6bca, type: 2}
   m_PrefabInternal: {fileID: 1766767478}
   m_GameObject: {fileID: 879676246}
-  m_LocalRotation: {x: -3.44151441e-09, y: 2.78014634e-09, z: .316032678, w: .948748291}
+  m_LocalRotation: {x: -3.44151463e-09, y: 2.78014656e-09, z: .316032708, w: .94874835}
   m_LocalPosition: {x: -.290074021, y: -2.86102289e-08, z: 0}
   m_LocalScale: {x: 1, y: 1.00000012, z: .99999994}
   m_Children:
@@ -39891,7 +40517,7 @@ GameObject:
   - 136: {fileID: 881003840}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -40534,7 +41160,7 @@ GameObject:
   - 136: {fileID: 890457330}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -40715,7 +41341,7 @@ GameObject:
   - 136: {fileID: 892428826}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42051,7 +42677,7 @@ GameObject:
   - 136: {fileID: 927220037}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -43850,7 +44476,7 @@ GameObject:
   - 136: {fileID: 958493934}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44130,6 +44756,91 @@ Transform:
   m_Children:
   - {fileID: 873668759}
   m_Father: {fileID: 910883639}
+--- !u!1 &961086133
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100044, guid: e97d0ac537c3704438d008cbf5a3cc4f, type: 2}
+  m_PrefabInternal: {fileID: 2058826744}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 961086134}
+  m_Layer: 0
+  m_Name: Bone004
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &961086134
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400044, guid: e97d0ac537c3704438d008cbf5a3cc4f, type: 2}
+  m_PrefabInternal: {fileID: 2058826744}
+  m_GameObject: {fileID: 961086133}
+  m_LocalRotation: {x: -2.86409792e-14, y: -1.80889378e-16, z: .00886580441, w: .999960721}
+  m_LocalPosition: {x: -1.45669663, y: 3.18512321e-07, z: -4.2256037e-13}
+  m_LocalScale: {x: .99999994, y: .99999994, z: 1}
+  m_Children:
+  - {fileID: 382676399}
+  m_Father: {fileID: 1504435258}
+--- !u!1 &961595337
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: e97d0ac537c3704438d008cbf5a3cc4f, type: 2}
+  m_PrefabInternal: {fileID: 2058826744}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 961595338}
+  - 95: {fileID: 961595340}
+  - 136: {fileID: 961595339}
+  m_Layer: 0
+  m_Name: Gran
+  m_TagString: Tree
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &961595338
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400000, guid: e97d0ac537c3704438d008cbf5a3cc4f, type: 2}
+  m_PrefabInternal: {fileID: 2058826744}
+  m_GameObject: {fileID: 961595337}
+  m_LocalRotation: {x: 0, y: -.105982997, z: 0, w: .994368017}
+  m_LocalPosition: {x: 83.192688, y: 1.6658299, z: 41.6811714}
+  m_LocalScale: {x: 2.0185411, y: 2.0185411, z: 2.0185411}
+  m_Children:
+  - {fileID: 687053770}
+  m_Father: {fileID: 1766033003}
+--- !u!136 &961595339
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 13600000, guid: e97d0ac537c3704438d008cbf5a3cc4f,
+    type: 2}
+  m_PrefabInternal: {fileID: 2058826744}
+  m_GameObject: {fileID: 961595337}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 2.6500001
+  m_Height: 9.19999981
+  m_Direction: 1
+  m_Center: {x: 0, y: 2.49000001, z: 0}
+--- !u!95 &961595340
+Animator:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 9500002, guid: e97d0ac537c3704438d008cbf5a3cc4f,
+    type: 2}
+  m_PrefabInternal: {fileID: 2058826744}
+  m_GameObject: {fileID: 961595337}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: 023636914ddb32843a6ee7fbcb007f5f, type: 3}
+  m_Controller: {fileID: 9100000, guid: 9ce52338c6cf4574b8a6d22b022887ef, type: 2}
+  m_CullingMode: 0
+  m_ApplyRootMotion: 1
+  m_AnimatePhysics: 0
+  m_HasTransformHierarchy: 1
 --- !u!1 &961638504
 GameObject:
   m_ObjectHideFlags: 0
@@ -44221,7 +44932,7 @@ GameObject:
   - 136: {fileID: 962441657}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44343,7 +45054,7 @@ GameObject:
   - 136: {fileID: 963148713}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45226,7 +45937,7 @@ GameObject:
   - 136: {fileID: 982895711}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -46098,7 +46809,7 @@ GameObject:
   - 136: {fileID: 996497909}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -47922,7 +48633,7 @@ GameObject:
   - 136: {fileID: 1039508920}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -48192,7 +48903,7 @@ GameObject:
   - 136: {fileID: 1043756168}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -48543,7 +49254,7 @@ GameObject:
   - 136: {fileID: 1053255491}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -48897,7 +49608,7 @@ GameObject:
   - 136: {fileID: 1057425419}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -49311,7 +50022,7 @@ GameObject:
   - 136: {fileID: 1064391886}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -49685,7 +50396,7 @@ GameObject:
   - 136: {fileID: 1075405619}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -49922,7 +50633,7 @@ GameObject:
   - 136: {fileID: 1081221403}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -50296,7 +51007,7 @@ GameObject:
   - 136: {fileID: 1089162698}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -50637,7 +51348,7 @@ GameObject:
   - 136: {fileID: 1097648303}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -51168,7 +51879,7 @@ GameObject:
   - 136: {fileID: 1102475450}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -51343,7 +52054,7 @@ GameObject:
   - 4: {fileID: 1107320709}
   m_Layer: 8
   m_Name: CameraFollowObject
-  m_TagString: Player
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -51355,7 +52066,7 @@ Transform:
   m_PrefabInternal: {fileID: 368760317}
   m_GameObject: {fileID: 1107320708}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.2980361, z: 0}
+  m_LocalPosition: {x: 0, y: 1.79803598, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1369752327}
@@ -51500,7 +52211,7 @@ GameObject:
   - 136: {fileID: 1108845349}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -52466,7 +53177,7 @@ GameObject:
   - 136: {fileID: 1126257586}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -52850,7 +53561,7 @@ GameObject:
   - 136: {fileID: 1131399552}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -53704,6 +54415,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c38612ceb2ae463ea21ca945d281b64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 0}
   target: {fileID: 1369752326}
   attackTimer: 0
   coolDown: 2
@@ -53714,7 +54426,7 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 345171659}
   m_GameObject: {fileID: 1153920964}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 05f45c69bbeac47509d879a115b26ddf, type: 3}
   m_Name: 
@@ -53735,7 +54447,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 0}
-  moveSpeed: .5
+  moveSpeed: 1.5
   rotationSpeed: 4
   maxDistance: 0
 --- !u!1 &1155283389
@@ -53960,7 +54672,7 @@ GameObject:
   - 136: {fileID: 1157229501}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -55505,7 +56217,7 @@ GameObject:
   - 136: {fileID: 1197433848}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -55616,7 +56328,7 @@ GameObject:
   - 136: {fileID: 1208583001}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -56000,6 +56712,34 @@ SkinnedMeshRenderer:
     m_Center: {x: -3.87314105, y: .104445934, z: -.0192453861}
     m_Extent: {x: 3.4736588, y: 3.30594492, z: 3.20076084}
   m_DirtyAABB: 0
+--- !u!1 &1217762368
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100014, guid: e97d0ac537c3704438d008cbf5a3cc4f, type: 2}
+  m_PrefabInternal: {fileID: 714070163}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1217762369}
+  m_Layer: 0
+  m_Name: TR______D
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1217762369
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400014, guid: e97d0ac537c3704438d008cbf5a3cc4f, type: 2}
+  m_PrefabInternal: {fileID: 714070163}
+  m_GameObject: {fileID: 1217762368}
+  m_LocalRotation: {x: -.707106829, y: 0, z: -0, w: .707106829}
+  m_LocalPosition: {x: -.0991175696, y: 3.78792071, z: .0192452446}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1934203191}
+  - {fileID: 106721169}
+  m_Father: {fileID: 1450173707}
 --- !u!1 &1218009672
 GameObject:
   m_ObjectHideFlags: 0
@@ -56040,7 +56780,7 @@ GameObject:
   - 136: {fileID: 1218362246}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -56330,7 +57070,7 @@ Transform:
   m_PrefabParentObject: {fileID: 400032, guid: 3ca2acc01750f47289818553fdfb6bca, type: 2}
   m_PrefabInternal: {fileID: 2036962729}
   m_GameObject: {fileID: 1221998188}
-  m_LocalRotation: {x: -3.44151441e-09, y: 2.78014634e-09, z: .316032678, w: .948748291}
+  m_LocalRotation: {x: -3.44151463e-09, y: 2.78014656e-09, z: .316032708, w: .94874835}
   m_LocalPosition: {x: -.290074021, y: -2.86102289e-08, z: 0}
   m_LocalScale: {x: 1, y: 1.00000012, z: .99999994}
   m_Children:
@@ -56455,7 +57195,7 @@ GameObject:
   - 136: {fileID: 1226167046}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -56605,7 +57345,7 @@ GameObject:
   - 136: {fileID: 1229345391}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -56663,7 +57403,7 @@ GameObject:
   - 136: {fileID: 1229550773}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -57296,7 +58036,7 @@ GameObject:
   - 136: {fileID: 1244177524}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -57738,7 +58478,7 @@ GameObject:
   - 136: {fileID: 1254768984}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -58533,7 +59273,7 @@ GameObject:
   - 136: {fileID: 1275867119}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -58682,7 +59422,7 @@ GameObject:
   - 136: {fileID: 1278615905}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -59011,18 +59751,18 @@ Transform:
   m_Children:
   - {fileID: 1815216993}
   - {fileID: 959814798}
-  - {fileID: 569411835}
   - {fileID: 1007441230}
   - {fileID: 2021142292}
   - {fileID: 1109911987}
   - {fileID: 290003399}
   - {fileID: 1992832995}
-  - {fileID: 2111891891}
   - {fileID: 135250618}
   - {fileID: 1140121693}
   - {fileID: 458531913}
   - {fileID: 187539441}
   - {fileID: 1257172436}
+  - {fileID: 569411835}
+  - {fileID: 2111891891}
   m_Father: {fileID: 0}
 --- !u!1001 &1287471570
 Prefab:
@@ -59734,7 +60474,7 @@ GameObject:
   - 136: {fileID: 1300217689}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -60871,7 +61611,7 @@ GameObject:
   - 136: {fileID: 1329190964}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -61665,7 +62405,7 @@ GameObject:
   - 136: {fileID: 1343464908}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -61723,7 +62463,7 @@ GameObject:
   - 136: {fileID: 1343587562}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -62095,7 +62835,7 @@ GameObject:
   - 136: {fileID: 1354082361}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -62233,7 +62973,7 @@ GameObject:
   - 136: {fileID: 1357529329}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -62902,7 +63642,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeb13efc3b8a3e64f91a19e209741f2b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  debugMode: 1
+  debugMode: 0
 --- !u!1 &1370376107
 GameObject:
   m_ObjectHideFlags: 0
@@ -63270,7 +64010,7 @@ GameObject:
   - 136: {fileID: 1374195814}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -63538,7 +64278,7 @@ GameObject:
   - 136: {fileID: 1377242652}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -64979,7 +65719,7 @@ GameObject:
   - 136: {fileID: 1410410304}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -65620,7 +66360,7 @@ GameObject:
   - 136: {fileID: 1428536046}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -65951,6 +66691,70 @@ Transform:
   m_Children:
   - {fileID: 1908458509}
   m_Father: {fileID: 1722030161}
+--- !u!1 &1436875793
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100004, guid: e97d0ac537c3704438d008cbf5a3cc4f, type: 2}
+  m_PrefabInternal: {fileID: 44974071}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1436875794}
+  - 137: {fileID: 1436875795}
+  m_Layer: 0
+  m_Name: gr__nt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1436875794
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400004, guid: e97d0ac537c3704438d008cbf5a3cc4f, type: 2}
+  m_PrefabInternal: {fileID: 44974071}
+  m_GameObject: {fileID: 1436875793}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: .0991175696, y: .0192452446, z: -3.12650347}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1570421459}
+--- !u!137 &1436875795
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 13700002, guid: e97d0ac537c3704438d008cbf5a3cc4f,
+    type: 2}
+  m_PrefabInternal: {fileID: 44974071}
+  m_GameObject: {fileID: 1436875793}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: 5a87e2b9912c246d09d82cda265fa73a, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_SortingLayerID: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_Mesh: {fileID: 4300002, guid: 023636914ddb32843a6ee7fbcb007f5f, type: 3}
+  m_Bones:
+  - {fileID: 824335353}
+  - {fileID: 1642762175}
+  - {fileID: 268449121}
+  - {fileID: 439272349}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 824335353}
+  m_AABB:
+    m_Center: {x: -3.87314105, y: .104445934, z: -.0192453861}
+    m_Extent: {x: 3.4736588, y: 3.30594492, z: 3.20076084}
+  m_DirtyAABB: 0
 --- !u!1 &1437004922
 GameObject:
   m_ObjectHideFlags: 0
@@ -66883,7 +67687,7 @@ GameObject:
   - 136: {fileID: 1449073293}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -67014,6 +67818,50 @@ Transform:
   m_Children:
   - {fileID: 1013979322}
   m_Father: {fileID: 1765628418}
+--- !u!1 &1450173706
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100018, guid: e97d0ac537c3704438d008cbf5a3cc4f, type: 2}
+  m_PrefabInternal: {fileID: 714070163}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1450173707}
+  - 95: {fileID: 1450173708}
+  m_Layer: 0
+  m_Name: gran v2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1450173707
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400018, guid: e97d0ac537c3704438d008cbf5a3cc4f, type: 2}
+  m_PrefabInternal: {fileID: 714070163}
+  m_GameObject: {fileID: 1450173706}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1713888600}
+  - {fileID: 1217762369}
+  m_Father: {fileID: 2108435526}
+--- !u!95 &1450173708
+Animator:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 9500000, guid: e97d0ac537c3704438d008cbf5a3cc4f,
+    type: 2}
+  m_PrefabInternal: {fileID: 714070163}
+  m_GameObject: {fileID: 1450173706}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: 023636914ddb32843a6ee7fbcb007f5f, type: 3}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 1
+  m_ApplyRootMotion: 1
+  m_AnimatePhysics: 0
+  m_HasTransformHierarchy: 1
 --- !u!1 &1452378927
 GameObject:
   m_ObjectHideFlags: 0
@@ -67151,7 +67999,7 @@ Transform:
   m_PrefabParentObject: {fileID: 400062, guid: 8e2b2ded5530f4079b442b8c000facda, type: 2}
   m_PrefabInternal: {fileID: 368760317}
   m_GameObject: {fileID: 1455116668}
-  m_LocalRotation: {x: .95823735, y: -.27016294, z: -.0770825446, w: -.0533989407}
+  m_LocalRotation: {x: .95823741, y: -.27016297, z: -.077082552, w: -.0533989444}
   m_LocalPosition: {x: -.206506863, y: -2.86102289e-08, z: 1.43051144e-08}
   m_LocalScale: {x: .999999881, y: 1, z: 1}
   m_Children:
@@ -67390,7 +68238,7 @@ GameObject:
   - 136: {fileID: 1462318010}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -68346,7 +69194,7 @@ GameObject:
   - 136: {fileID: 1484364810}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -68690,7 +69538,7 @@ GameObject:
   - 136: {fileID: 1491457219}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -69271,6 +70119,33 @@ Transform:
   - {fileID: 328444305}
   - {fileID: 950936022}
   m_Father: {fileID: 1625454850}
+--- !u!1 &1504435257
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100046, guid: e97d0ac537c3704438d008cbf5a3cc4f, type: 2}
+  m_PrefabInternal: {fileID: 2058826744}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1504435258}
+  m_Layer: 0
+  m_Name: Bone003
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1504435258
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400046, guid: e97d0ac537c3704438d008cbf5a3cc4f, type: 2}
+  m_PrefabInternal: {fileID: 2058826744}
+  m_GameObject: {fileID: 1504435257}
+  m_LocalRotation: {x: -2.91498325e-14, y: -5.91948162e-14, z: -.00862412155, w: .999962807}
+  m_LocalPosition: {x: -.69530654, y: -1.30198899e-07, z: -3.04251626e-14}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 961086134}
+  m_Father: {fileID: 463443618}
 --- !u!1 &1506913866
 GameObject:
   m_ObjectHideFlags: 0
@@ -70413,7 +71288,7 @@ GameObject:
   - 136: {fileID: 1533111267}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -70704,6 +71579,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c38612ceb2ae463ea21ca945d281b64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 0}
   target: {fileID: 1369752326}
   attackTimer: 0
   coolDown: 2
@@ -70714,7 +71590,7 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 1287471570}
   m_GameObject: {fileID: 1535257494}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 05f45c69bbeac47509d879a115b26ddf, type: 3}
   m_Name: 
@@ -70735,7 +71611,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 0}
-  moveSpeed: .5
+  moveSpeed: 1.5
   rotationSpeed: 4
   maxDistance: 0
 --- !u!1 &1535772635
@@ -71081,7 +71957,7 @@ GameObject:
   - 136: {fileID: 1545892811}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -72136,7 +73012,7 @@ GameObject:
   - 136: {fileID: 1569705879}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -72237,6 +73113,34 @@ Transform:
   - {fileID: 1413506942}
   - {fileID: 74889034}
   m_Father: {fileID: 1661804499}
+--- !u!1 &1570421458
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100014, guid: e97d0ac537c3704438d008cbf5a3cc4f, type: 2}
+  m_PrefabInternal: {fileID: 44974071}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1570421459}
+  m_Layer: 0
+  m_Name: TR______D
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1570421459
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400014, guid: e97d0ac537c3704438d008cbf5a3cc4f, type: 2}
+  m_PrefabInternal: {fileID: 44974071}
+  m_GameObject: {fileID: 1570421458}
+  m_LocalRotation: {x: -.707106829, y: 0, z: -0, w: .707106829}
+  m_LocalPosition: {x: -.0991175696, y: 3.78792071, z: .0192452446}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1436875794}
+  - {fileID: 1721003540}
+  m_Father: {fileID: 333177643}
 --- !u!1 &1570451755
 GameObject:
   m_ObjectHideFlags: 0
@@ -72570,7 +73474,7 @@ GameObject:
   - 136: {fileID: 1575660966}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -74047,7 +74951,7 @@ GameObject:
   - 136: {fileID: 1611325173}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -74504,7 +75408,7 @@ GameObject:
   - 136: {fileID: 1619471295}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -74931,7 +75835,7 @@ GameObject:
   - 136: {fileID: 1630133717}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -75068,7 +75972,7 @@ Transform:
   m_PrefabParentObject: {fileID: 400076, guid: 3ca2acc01750f47289818553fdfb6bca, type: 2}
   m_PrefabInternal: {fileID: 345171659}
   m_GameObject: {fileID: 1633968558}
-  m_LocalRotation: {x: -.545443594, y: .621080637, z: .457471132, w: .327826619}
+  m_LocalRotation: {x: -.545443594, y: .621080637, z: .457471102, w: .327826619}
   m_LocalPosition: {x: -.107635342, y: .130502462, z: -.0560200885}
   m_LocalScale: {x: 2.14091921, y: 1.00000072, z: 1.00000036}
   m_Children: []
@@ -75518,6 +76422,33 @@ SkinnedMeshRenderer:
     m_Center: {x: -3.24819946, y: -.115859151, z: .0664283037}
     m_Extent: {x: 3.25012636, y: 2.58760262, z: 2.55362511}
   m_DirtyAABB: 0
+--- !u!1 &1642762174
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100046, guid: e97d0ac537c3704438d008cbf5a3cc4f, type: 2}
+  m_PrefabInternal: {fileID: 44974071}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1642762175}
+  m_Layer: 0
+  m_Name: Bone003
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1642762175
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400046, guid: e97d0ac537c3704438d008cbf5a3cc4f, type: 2}
+  m_PrefabInternal: {fileID: 44974071}
+  m_GameObject: {fileID: 1642762174}
+  m_LocalRotation: {x: -2.91498325e-14, y: -5.91948162e-14, z: -.00862412155, w: .999962807}
+  m_LocalPosition: {x: -.69530654, y: -1.30198899e-07, z: -3.04251626e-14}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 268449121}
+  m_Father: {fileID: 824335353}
 --- !u!1 &1643562387
 GameObject:
   m_ObjectHideFlags: 0
@@ -75928,7 +76859,7 @@ Transform:
   m_PrefabParentObject: {fileID: 400032, guid: 3ca2acc01750f47289818553fdfb6bca, type: 2}
   m_PrefabInternal: {fileID: 117807942}
   m_GameObject: {fileID: 1649847523}
-  m_LocalRotation: {x: -3.44151441e-09, y: 2.78014634e-09, z: .316032678, w: .948748291}
+  m_LocalRotation: {x: -3.44151463e-09, y: 2.78014656e-09, z: .316032708, w: .94874835}
   m_LocalPosition: {x: -.290074021, y: -2.86102289e-08, z: 0}
   m_LocalScale: {x: 1, y: 1.00000012, z: .99999994}
   m_Children:
@@ -76348,6 +77279,33 @@ Transform:
   m_Children:
   - {fileID: 1029535801}
   m_Father: {fileID: 1330313211}
+--- !u!1 &1660290894
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100016, guid: e97d0ac537c3704438d008cbf5a3cc4f, type: 2}
+  m_PrefabInternal: {fileID: 44974071}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1660290895}
+  m_Layer: 0
+  m_Name: Bone001
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1660290895
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400016, guid: e97d0ac537c3704438d008cbf5a3cc4f, type: 2}
+  m_PrefabInternal: {fileID: 44974071}
+  m_GameObject: {fileID: 1660290894}
+  m_LocalRotation: {x: .707106829, y: -.707106829, z: -2.2618859e-07, w: 2.2618859e-07}
+  m_LocalPosition: {x: .00335991406, y: .001926756, z: 8.89794566e-19}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 824335353}
+  m_Father: {fileID: 333177643}
 --- !u!1 &1660564683
 GameObject:
   m_ObjectHideFlags: 0
@@ -76432,7 +77390,7 @@ GameObject:
   - 136: {fileID: 1661920894}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -76548,7 +77506,7 @@ GameObject:
   - 136: {fileID: 1665129740}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -77293,7 +78251,7 @@ GameObject:
   - 136: {fileID: 1681585582}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -78846,6 +79804,33 @@ Transform:
   m_Children:
   - {fileID: 1017759735}
   m_Father: {fileID: 998909226}
+--- !u!1 &1713888599
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100016, guid: e97d0ac537c3704438d008cbf5a3cc4f, type: 2}
+  m_PrefabInternal: {fileID: 714070163}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1713888600}
+  m_Layer: 0
+  m_Name: Bone001
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1713888600
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400016, guid: e97d0ac537c3704438d008cbf5a3cc4f, type: 2}
+  m_PrefabInternal: {fileID: 714070163}
+  m_GameObject: {fileID: 1713888599}
+  m_LocalRotation: {x: .707106829, y: -.707106829, z: -2.2618859e-07, w: 2.2618859e-07}
+  m_LocalPosition: {x: .00335991406, y: .001926756, z: 8.89794566e-19}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 623042466}
+  m_Father: {fileID: 1450173707}
 --- !u!1 &1713995803
 GameObject:
   m_ObjectHideFlags: 0
@@ -79143,6 +80128,71 @@ SkinnedMeshRenderer:
     m_Center: {x: -.106592655, y: .145574227, z: .0179302394}
     m_Extent: {x: .64149344, y: .345514297, z: .325618237}
   m_DirtyAABB: 0
+--- !u!1 &1721003539
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100002, guid: e97d0ac537c3704438d008cbf5a3cc4f, type: 2}
+  m_PrefabInternal: {fileID: 44974071}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1721003540}
+  - 137: {fileID: 1721003541}
+  m_Layer: 0
+  m_Name: stam
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1721003540
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400002, guid: e97d0ac537c3704438d008cbf5a3cc4f, type: 2}
+  m_PrefabInternal: {fileID: 44974071}
+  m_GameObject: {fileID: 1721003539}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: .0991175696, y: .0192452446, z: -3.78792071}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1570421459}
+--- !u!137 &1721003541
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 13700000, guid: e97d0ac537c3704438d008cbf5a3cc4f,
+    type: 2}
+  m_PrefabInternal: {fileID: 44974071}
+  m_GameObject: {fileID: 1721003539}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: 5948cac1805964cc8b6473cef063cd36, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_SortingLayerID: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_Mesh: {fileID: 4300000, guid: 023636914ddb32843a6ee7fbcb007f5f, type: 3}
+  m_Bones:
+  - {fileID: 1660290895}
+  - {fileID: 824335353}
+  - {fileID: 1642762175}
+  - {fileID: 268449121}
+  - {fileID: 439272349}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 1660290895}
+  m_AABB:
+    m_Center: {x: -3.24819946, y: -.115859151, z: .0664283037}
+    m_Extent: {x: 3.25012636, y: 2.58760262, z: 2.55362511}
+  m_DirtyAABB: 0
 --- !u!1 &1722030160
 GameObject:
   m_ObjectHideFlags: 0
@@ -79209,7 +80259,7 @@ GameObject:
   - 136: {fileID: 1723636973}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -79295,7 +80345,7 @@ GameObject:
   - 136: {fileID: 1730265053}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -79411,7 +80461,7 @@ GameObject:
   - 136: {fileID: 1737332842}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -80271,7 +81321,7 @@ GameObject:
   - 136: {fileID: 1753576883}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -80872,6 +81922,7 @@ Transform:
   - {fileID: 1665129739}
   - {fileID: 411813593}
   - {fileID: 1208583000}
+  - {fileID: 629279033}
   - {fileID: 1575660965}
   - {fileID: 207912114}
   - {fileID: 1300217688}
@@ -80916,6 +81967,7 @@ Transform:
   - {fileID: 1102475449}
   - {fileID: 892428825}
   - {fileID: 881003839}
+  - {fileID: 2108435526}
   - {fileID: 55369774}
   - {fileID: 804314505}
   - {fileID: 996497908}
@@ -81002,6 +82054,7 @@ Transform:
   - {fileID: 348672241}
   - {fileID: 1374195813}
   - {fileID: 371329393}
+  - {fileID: 961595338}
   - {fileID: 439943703}
   - {fileID: 2037190843}
   - {fileID: 1357529328}
@@ -81144,8 +82197,8 @@ EllipsoidParticleEmitter:
   maxSize: .5
   minEnergy: 10
   maxEnergy: 20
-  minEmission: 3
-  maxEmission: 6
+  minEmission: 10
+  maxEmission: 15
   worldVelocity: {x: 0, y: .5, z: 0}
   localVelocity: {x: 0, y: 0, z: 0}
   rndVelocity: {x: 1, y: .5, z: 1}
@@ -83611,7 +84664,7 @@ GameObject:
   - 136: {fileID: 1825786699}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -84263,7 +85316,7 @@ GameObject:
   - 136: {fileID: 1842564954}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -84419,7 +85472,7 @@ GameObject:
   - 136: {fileID: 1849990302}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -84745,7 +85798,7 @@ GameObject:
   - 136: {fileID: 1854599458}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -84985,6 +86038,70 @@ Transform:
   m_Children:
   - {fileID: 1568545102}
   m_Father: {fileID: 825261268}
+--- !u!1 &1857181926
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100004, guid: e97d0ac537c3704438d008cbf5a3cc4f, type: 2}
+  m_PrefabInternal: {fileID: 2058826744}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1857181927}
+  - 137: {fileID: 1857181928}
+  m_Layer: 0
+  m_Name: gr__nt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1857181927
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400004, guid: e97d0ac537c3704438d008cbf5a3cc4f, type: 2}
+  m_PrefabInternal: {fileID: 2058826744}
+  m_GameObject: {fileID: 1857181926}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: .0991175696, y: .0192452446, z: -3.12650347}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 25147195}
+--- !u!137 &1857181928
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 13700002, guid: e97d0ac537c3704438d008cbf5a3cc4f,
+    type: 2}
+  m_PrefabInternal: {fileID: 2058826744}
+  m_GameObject: {fileID: 1857181926}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: 5a87e2b9912c246d09d82cda265fa73a, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_SortingLayerID: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_Mesh: {fileID: 4300002, guid: 023636914ddb32843a6ee7fbcb007f5f, type: 3}
+  m_Bones:
+  - {fileID: 463443618}
+  - {fileID: 1504435258}
+  - {fileID: 961086134}
+  - {fileID: 382676399}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 463443618}
+  m_AABB:
+    m_Center: {x: -3.87314105, y: .104445934, z: -.0192453861}
+    m_Extent: {x: 3.4736588, y: 3.30594492, z: 3.20076084}
+  m_DirtyAABB: 0
 --- !u!1 &1857998998
 GameObject:
   m_ObjectHideFlags: 0
@@ -87132,7 +88249,7 @@ GameObject:
   - 136: {fileID: 1906947244}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -87535,7 +88652,7 @@ GameObject:
   - 136: {fileID: 1914402467}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -87775,6 +88892,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c38612ceb2ae463ea21ca945d281b64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 0}
   target: {fileID: 1369752326}
   attackTimer: 0
   coolDown: 2
@@ -87785,7 +88903,7 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 117807942}
   m_GameObject: {fileID: 1916954919}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 05f45c69bbeac47509d879a115b26ddf, type: 3}
   m_Name: 
@@ -87806,7 +88924,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 0}
-  moveSpeed: .5
+  moveSpeed: 1.5
   rotationSpeed: 4
   maxDistance: 0
 --- !u!1 &1917785804
@@ -88049,6 +89167,71 @@ Transform:
   m_Children:
   - {fileID: 2014606548}
   m_Father: {fileID: 215221513}
+--- !u!1 &1922645958
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100002, guid: e97d0ac537c3704438d008cbf5a3cc4f, type: 2}
+  m_PrefabInternal: {fileID: 2058826744}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1922645959}
+  - 137: {fileID: 1922645960}
+  m_Layer: 0
+  m_Name: stam
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1922645959
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400002, guid: e97d0ac537c3704438d008cbf5a3cc4f, type: 2}
+  m_PrefabInternal: {fileID: 2058826744}
+  m_GameObject: {fileID: 1922645958}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: .0991175696, y: .0192452446, z: -3.78792071}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 25147195}
+--- !u!137 &1922645960
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 13700000, guid: e97d0ac537c3704438d008cbf5a3cc4f,
+    type: 2}
+  m_PrefabInternal: {fileID: 2058826744}
+  m_GameObject: {fileID: 1922645958}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: 5948cac1805964cc8b6473cef063cd36, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_SortingLayerID: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_Mesh: {fileID: 4300000, guid: 023636914ddb32843a6ee7fbcb007f5f, type: 3}
+  m_Bones:
+  - {fileID: 756238271}
+  - {fileID: 463443618}
+  - {fileID: 1504435258}
+  - {fileID: 961086134}
+  - {fileID: 382676399}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 756238271}
+  m_AABB:
+    m_Center: {x: -3.24819946, y: -.115859151, z: .0664283037}
+    m_Extent: {x: 3.25012636, y: 2.58760262, z: 2.55362511}
+  m_DirtyAABB: 0
 --- !u!1 &1923661370
 GameObject:
   m_ObjectHideFlags: 0
@@ -88492,6 +89675,70 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1599125514}
+--- !u!1 &1934203190
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100004, guid: e97d0ac537c3704438d008cbf5a3cc4f, type: 2}
+  m_PrefabInternal: {fileID: 714070163}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1934203191}
+  - 137: {fileID: 1934203192}
+  m_Layer: 0
+  m_Name: gr__nt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1934203191
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400004, guid: e97d0ac537c3704438d008cbf5a3cc4f, type: 2}
+  m_PrefabInternal: {fileID: 714070163}
+  m_GameObject: {fileID: 1934203190}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: .0991175696, y: .0192452446, z: -3.12650347}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1217762369}
+--- !u!137 &1934203192
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 13700002, guid: e97d0ac537c3704438d008cbf5a3cc4f,
+    type: 2}
+  m_PrefabInternal: {fileID: 714070163}
+  m_GameObject: {fileID: 1934203190}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: 5a87e2b9912c246d09d82cda265fa73a, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_SortingLayerID: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_Mesh: {fileID: 4300002, guid: 023636914ddb32843a6ee7fbcb007f5f, type: 3}
+  m_Bones:
+  - {fileID: 623042466}
+  - {fileID: 617316711}
+  - {fileID: 791845066}
+  - {fileID: 20703206}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 623042466}
+  m_AABB:
+    m_Center: {x: -3.87314105, y: .104445934, z: -.0192453861}
+    m_Extent: {x: 3.4736588, y: 3.30594492, z: 3.20076084}
+  m_DirtyAABB: 0
 --- !u!1 &1934971228
 GameObject:
   m_ObjectHideFlags: 0
@@ -89553,7 +90800,7 @@ GameObject:
   - 136: {fileID: 1958441972}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -90511,7 +91758,7 @@ GameObject:
   - 136: {fileID: 1973936272}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -91063,7 +92310,7 @@ GameObject:
   - 136: {fileID: 1987051339}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -91319,7 +92566,7 @@ GameObject:
   - 136: {fileID: 1989840317}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -92802,7 +94049,7 @@ GameObject:
   - 136: {fileID: 2025676684}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -93297,7 +94544,7 @@ GameObject:
   - 136: {fileID: 2037190844}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -94141,6 +95388,58 @@ MeshFilter:
   m_PrefabInternal: {fileID: 1476837217}
   m_GameObject: {fileID: 2058500305}
   m_Mesh: {fileID: 4300000, guid: bd2bcc7f2f8beb348b57ae13c869ecb2, type: 3}
+--- !u!1001 &2058826744
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1766033003}
+    m_Modifications:
+    - target: {fileID: 400000, guid: e97d0ac537c3704438d008cbf5a3cc4f, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 83.192688
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: e97d0ac537c3704438d008cbf5a3cc4f, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 1.6658299
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: e97d0ac537c3704438d008cbf5a3cc4f, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 41.6811714
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: e97d0ac537c3704438d008cbf5a3cc4f, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: e97d0ac537c3704438d008cbf5a3cc4f, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -.105982997
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: e97d0ac537c3704438d008cbf5a3cc4f, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: e97d0ac537c3704438d008cbf5a3cc4f, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: .994368017
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: e97d0ac537c3704438d008cbf5a3cc4f, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 2.0185411
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: e97d0ac537c3704438d008cbf5a3cc4f, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 2.0185411
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: e97d0ac537c3704438d008cbf5a3cc4f, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 2.0185411
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e97d0ac537c3704438d008cbf5a3cc4f, type: 2}
+  m_RootGameObject: {fileID: 961595337}
+  m_IsPrefabParent: 0
+  m_IsExploded: 1
 --- !u!1 &2058928721
 GameObject:
   m_ObjectHideFlags: 0
@@ -94306,7 +95605,7 @@ GameObject:
   - 136: {fileID: 2061702142}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -94659,7 +95958,7 @@ GameObject:
   - 136: {fileID: 2068861540}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -94782,7 +96081,7 @@ GameObject:
   - 136: {fileID: 2071074749}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -94918,7 +96217,7 @@ GameObject:
   - 136: {fileID: 2072171678}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -95673,7 +96972,7 @@ GameObject:
   - 136: {fileID: 2085924778}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -96336,7 +97635,7 @@ GameObject:
   - 136: {fileID: 2105214318}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -96693,6 +97992,64 @@ Transform:
   m_Children:
   - {fileID: 287220660}
   m_Father: {fileID: 208564369}
+--- !u!1 &2108435525
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: e97d0ac537c3704438d008cbf5a3cc4f, type: 2}
+  m_PrefabInternal: {fileID: 714070163}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2108435526}
+  - 95: {fileID: 2108435528}
+  - 136: {fileID: 2108435527}
+  m_Layer: 0
+  m_Name: Gran
+  m_TagString: Tree
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2108435526
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400000, guid: e97d0ac537c3704438d008cbf5a3cc4f, type: 2}
+  m_PrefabInternal: {fileID: 714070163}
+  m_GameObject: {fileID: 2108435525}
+  m_LocalRotation: {x: 0, y: -.105982997, z: 0, w: .994368017}
+  m_LocalPosition: {x: 92.7012787, y: 1.6658299, z: 38.8175583}
+  m_LocalScale: {x: 2.0185411, y: 2.0185411, z: 2.0185411}
+  m_Children:
+  - {fileID: 1450173707}
+  m_Father: {fileID: 1766033003}
+--- !u!136 &2108435527
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 13600000, guid: e97d0ac537c3704438d008cbf5a3cc4f,
+    type: 2}
+  m_PrefabInternal: {fileID: 714070163}
+  m_GameObject: {fileID: 2108435525}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 2.6500001
+  m_Height: 9.19999981
+  m_Direction: 1
+  m_Center: {x: 0, y: 2.49000001, z: 0}
+--- !u!95 &2108435528
+Animator:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 9500002, guid: e97d0ac537c3704438d008cbf5a3cc4f,
+    type: 2}
+  m_PrefabInternal: {fileID: 714070163}
+  m_GameObject: {fileID: 2108435525}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: 023636914ddb32843a6ee7fbcb007f5f, type: 3}
+  m_Controller: {fileID: 9100000, guid: 9ce52338c6cf4574b8a6d22b022887ef, type: 2}
+  m_CullingMode: 0
+  m_ApplyRootMotion: 1
+  m_AnimatePhysics: 0
+  m_HasTransformHierarchy: 1
 --- !u!1 &2111865369
 GameObject:
   m_ObjectHideFlags: 0
@@ -97586,7 +98943,7 @@ GameObject:
   - 136: {fileID: 2130238670}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -97671,7 +99028,7 @@ GameObject:
   - 136: {fileID: 2131620422}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -97899,7 +99256,7 @@ GameObject:
   - 136: {fileID: 2135161527}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -98051,7 +99408,7 @@ GameObject:
   - 136: {fileID: 2136608239}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -98203,7 +99560,7 @@ GameObject:
   - 136: {fileID: 2138081094}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -98466,7 +99823,7 @@ GameObject:
   - 136: {fileID: 2146117856}
   m_Layer: 0
   m_Name: Gran
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

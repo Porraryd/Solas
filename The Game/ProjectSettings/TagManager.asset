@@ -4,9 +4,9 @@
 TagManager:
   tags:
   - 
-  - PickUp
-  - 
   - Enemy
+  - Bullet
+  - Tree
   - 
   Builtin Layer 0: Default
   Builtin Layer 1: TransparentFX
@@ -16,8 +16,8 @@ TagManager:
   Builtin Layer 5: 
   Builtin Layer 6: 
   Builtin Layer 7: 
-  User Layer 8: Player
-  User Layer 9: Ground
+  User Layer 8: 
+  User Layer 9: 
   User Layer 10: 
   User Layer 11: 
   User Layer 12: 
@@ -44,8 +44,4 @@ TagManager:
   - name: Default
     userID: 0
     uniqueID: 0
-    locked: 0
-  - name: Foreground
-    userID: 1
-    uniqueID: 3679313911
     locked: 0

@@ -3,47 +3,27 @@ using System.Collections;
 
 public class PlayerAttack : MonoBehaviour {
 
-	public GameObject target;
-	public float attackTimer;
-	public float coolDown;
+	public Rigidbody projectile;
+	public float projectileSpeed = 20;
+	public GameObject BulletSpawn;
 
 	// Use this for initialization
 	void Start () {
-		attackTimer = 0;
-		coolDown = 1.5f;
 	
 	}
 	
 	// Update is called once per frame
 	void Update () {
 
-		if (attackTimer > 0)
-						attackTimer -= Time.deltaTime;
-
-		if (attackTimer < 0)
-						attackTimer = 0;
-
-		if (Input.GetKeyUp (KeyCode.F)) {
-			if(attackTimer == 0){
-				Attack();
-				attackTimer = coolDown;
-			}
-		}
 	
 	}
-
-	private void Attack(){
-		float distance = Vector3.Distance (target.transform.position, transform.position);
-
-		Vector3 dir = (target.transform.position - transform.position).normalized;
-
-		float direction = Vector3.Dot (dir, transform.forward);
-
-		Debug.Log (direction);
-
-		if(distance < 2.5f && direction > 0.3){
-		EnemyHealth eh = (EnemyHealth)target.GetComponent ("EnemyHealth");
-		eh.AddjustCurrentHealth (-10);
-		} 
+	private void OnAttack(){
+		Rigidbody instantiatedProjectile = Instantiate (projectile,
+		                                                BulletSpawn.transform.position,
+		                                                transform.rotation)
+			as Rigidbody; // reference conversion to rigidbody
+		
+		//make the object move
+		instantiatedProjectile.velocity = transform.TransformDirection (new Vector3 (0, 0, projectileSpeed));
 	}
 }

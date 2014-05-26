@@ -13,8 +13,8 @@ public class Shoot : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-
-		if (Input.GetKeyDown (KeyCode.P)) {
+		/*
+		if (Input.GetButton ("Fire1")) {
 
 				Rigidbody instantiatedProjectile = Instantiate(projectile,
 			                                               transform.position,
@@ -28,6 +28,6 @@ public class Shoot : MonoBehaviour {
 			//Physics.IgnoreCollision(instantiatedProjectile.collider, transform.root.collider);
 
 		}
-	
+	*/
 	}
 }

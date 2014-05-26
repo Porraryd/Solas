@@ -65,7 +65,7 @@ public class Targetting : MonoBehaviour {
 
 		PlayerAttack pa = (PlayerAttack)GetComponent ("PlayerAttack");
 
-		pa.target = selectedTarget.gameObject;
+		//pa.target = selectedTarget.gameObject;
 	}
 
 	private void DeselectTarget(){

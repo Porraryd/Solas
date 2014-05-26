@@ -46,11 +46,13 @@ public class CharacterControllerLogic : MonoBehaviour {
 		horizontal = Input.GetAxis("Horizontal");
 		vertical = Input.GetAxis("Vertical");
 		if (Input.GetButton("Jump") && !isFalling)
-		{
-			
+		{	
 			Jump();
 		}
-
+		if (Input.GetButton ("Fire1")) {
+				animator.SetBool ("attack", true);
+				} else
+						animator.SetBool ("attack", false);
 	}
 	
 	void FixedUpdate () 
@@ -120,6 +122,12 @@ public class CharacterControllerLogic : MonoBehaviour {
 		//Jumping
 		rigidbody.velocity = new Vector3(0,jumpHeight,0);
 		//isFalling = true;
+	}
+
+	public void Attack()
+	{
+			
+
 	}
 
 	//checks if character is in locomotion (moving)

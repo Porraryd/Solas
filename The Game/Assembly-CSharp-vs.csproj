@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\Attack\Aim.cs" />
+     <Compile Include="Assets\Scripts\Attack\BulletCollision.cs" />
      <Compile Include="Assets\Scripts\Attack\EnemyAttack.cs" />
      <Compile Include="Assets\Scripts\Attack\EnemyHealth.cs" />
      <Compile Include="Assets\Scripts\Attack\Gun\Shoot.cs" />

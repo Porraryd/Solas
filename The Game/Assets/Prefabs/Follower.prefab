@@ -1523,7 +1523,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 0}
-  moveSpeed: .5
+  moveSpeed: 1.5
   rotationSpeed: 4
   maxDistance: 0
 --- !u!114 &11400002
@@ -1537,6 +1537,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c38612ceb2ae463ea21ca945d281b64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 0}
   target: {fileID: 100154, guid: 8e2b2ded5530f4079b442b8c000facda, type: 2}
   attackTimer: 0
   coolDown: 2

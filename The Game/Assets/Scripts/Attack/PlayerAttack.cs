@@ -17,6 +17,7 @@ public class PlayerAttack : MonoBehaviour {
 
 	
 	}
+
 	private void OnAttack(){
 		Rigidbody instantiatedProjectile = Instantiate (projectile,
 		                                                BulletSpawn.transform.position,
@@ -25,5 +26,7 @@ public class PlayerAttack : MonoBehaviour {
 		
 		//make the object move
 		instantiatedProjectile.velocity = transform.TransformDirection (new Vector3 (0, 0, projectileSpeed));
+		//rigidbody.AddRelativeForce (new Vector3 (0, 0, projectileSpeed), ForceMode.Impulse);
+
 	}
 }

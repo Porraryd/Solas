@@ -19,9 +19,9 @@ public class EnemyHealth : MonoBehaviour {
 		AddjustCurrentHealth (0);
 	}
 	
-	void OnGUI(){
+	/*void OnGUI(){
 		GUI.Box (new Rect (200, 40, healthBarLength, 20), curHealth + "/" + maxHealth);
-	}
+	}*/
 	
 	public void AddjustCurrentHealth(int adj){
 		

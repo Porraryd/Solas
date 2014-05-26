@@ -23,24 +23,33 @@ public class pauseGame : MonoBehaviour
 		myStyle2.normal.textColor = Color.white;
 		myStyle2.font = myFont;
 
+		Screen.lockCursor = true;
+		Screen.showCursor = false;
+
 	}
 	
 	// Update is called once per frame
 	void Update () 
 	{
-		 if (Input.GetKeyDown("p"))
+		 if (Input.GetKeyDown("escape"))
 		 {
 		 	if (checkPause % 2 == 0)
 		 	{
              	Time.timeScale =0;
             	 pause = true;
             	 checkPause++;
+
+				Screen.lockCursor = false;
+				Screen.showCursor = true;
             }
             else
             {
             	Time.timeScale=1;
             	pause = false;
             	checkPause++;
+
+				Screen.lockCursor = true;
+				Screen.showCursor = false;
             }
          }
 	}
@@ -59,6 +68,8 @@ public class pauseGame : MonoBehaviour
 			 	pause = false;
 			 	checkPause++;
 			 	
+				Screen.lockCursor = true;
+				Screen.showCursor = false;
 			 }
 			 else if(GUI.Button(rect2, "Main menu", myStyle2))
 			 {

@@ -31,12 +31,12 @@ Material:
       data:
         first:
           name: _RimPower
-        second: 6.9285717
+        second: 8
     m_Colors:
       data:
         first:
           name: _Color
-        second: {r: 1, g: 1, b: 1, a: 1}
+        second: {r: .411764681, g: .464502871, b: 1, a: 1}
       data:
         first:
           name: _RimColor

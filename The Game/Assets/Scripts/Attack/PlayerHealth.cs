@@ -5,31 +5,56 @@ public class PlayerHealth : MonoBehaviour {
 
 	public int maxHealth = 100;
 	public static int curHealth = 0;
-	public float healthBarLength;
+	private float healthBarLength;
+	public float healthDecayRate = 1f;
 
-	public static int count = 0;
-
+	private float timePassed;
+	private bool immune = false;
+	public float immuneTime = 0.2f;
+	private float immuneTimer = 0f;
+	private GameObject playerbody;
+	private Color playerMainColor;
 	// Use this for initialization
 	void Start () {
-
+		curHealth = 50;
 		healthBarLength = Screen.width / 2;
 		//FlowerCollider fc = (FlowerCollider)GetComponent ("FlowerCollider");
+
+		timePassed = 10 / healthDecayRate;
+
+		playerbody = GameObject.Find ("Body");
+		playerMainColor = playerbody.renderer.material.color;
 	}
 	
 	// Update is called once per frame
 	void Update () {
-	
-		AddjustCurrentHealth (0);
-	}
+				AdjustCurrentHealth (0);
+
+				timePassed -= Time.deltaTime;
+
+				if (timePassed < 0f) {
+						AdjustCurrentHealth (-1);
+						timePassed += 10 / healthDecayRate;
+				}
+		}
 
 	void OnGUI(){
 		GUI.Box (new Rect (200, 10, healthBarLength, 20), curHealth + "/" + maxHealth);
 	}
 
-	public void AddjustCurrentHealth(int adj){
-
+	public void AdjustCurrentHealth(int adj){
+		if (immuneTimer > 0) {
+			immuneTimer -= Time.deltaTime;	
+		}
+		if (immuneTimer <= 0){
+			immuneTimer = 0f;
+			playerbody.renderer.material.color = playerMainColor;
+		}
 		curHealth += adj;
-
+		if ((adj < 0) && (immuneTimer == 0f)) {
+			playerbody.renderer.material.color = Color.red;
+			immuneTimer = immuneTime;
+		}
 		if (curHealth < 1)
 						curHealth = 0;
 
@@ -47,7 +72,7 @@ public class PlayerHealth : MonoBehaviour {
 	{
 		if (other.gameObject.tag == "PickUp")
 		{
-			curHealth++;
+			AdjustCurrentHealth(10);
 			//ph.curHealth = count;
 			//SetCountText();
 			other.gameObject.SetActive(false);

@@ -23,7 +23,7 @@ public class PosUpdate : MonoBehaviour {
 		Shader.SetGlobalVector ("_PlayerPosition", PlayerPos);
 
 
-		lightRadius = PlayerHealth.curHealth * 0.5f + 2f;
+		lightRadius = PlayerHealth.curHealth * 0.1f;
 		if (debugMode == true)
 			Shader.SetGlobalFloat ("_VisibleDistance", 1000);
 		else {

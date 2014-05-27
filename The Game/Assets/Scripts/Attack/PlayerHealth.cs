@@ -16,7 +16,7 @@ public class PlayerHealth : MonoBehaviour {
 	private Color playerMainColor;
 	// Use this for initialization
 	void Start () {
-		curHealth = 50;
+		curHealth = 30;
 		healthBarLength = Screen.width / 2;
 		//FlowerCollider fc = (FlowerCollider)GetComponent ("FlowerCollider");
 

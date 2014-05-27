@@ -45,6 +45,7 @@ public class theBegin : MonoBehaviour
 		if (this.name == "Play")
 		{
 			Shader.SetGlobalFloat ("_VisibleDistance", 1);
+			Camera.main.SendMessage("fadeOut");
 			Application.LoadLevel("Level 1");
 
 		}

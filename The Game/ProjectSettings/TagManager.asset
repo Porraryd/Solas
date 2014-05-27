@@ -7,6 +7,8 @@ TagManager:
   - Enemy
   - Bullet
   - Tree
+  - Grass
+  - PickUp
   - 
   Builtin Layer 0: Default
   Builtin Layer 1: TransparentFX

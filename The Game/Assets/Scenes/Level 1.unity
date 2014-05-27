@@ -64854,6 +64854,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   projectile: {fileID: 5400000, guid: e56d743e9955f442dbc60244e8d51a87, type: 2}
+  projectileParticles: {fileID: 5400000, guid: d1059eee2695e4d45b043a5611bcd27a, type: 2}
   projectileSpeed: 20
   BulletSpawn: {fileID: 1593499529}
 --- !u!114 &1369752331

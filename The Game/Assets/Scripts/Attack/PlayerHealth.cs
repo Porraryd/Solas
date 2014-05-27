@@ -10,7 +10,7 @@ public class PlayerHealth : MonoBehaviour {
 
 	private float timePassed;
 	private bool immune = false;
-	public float immuneTime = 0.2f;
+	public float immuneTime = 0.05f;
 	private float immuneTimer = 0f;
 	private GameObject playerbody;
 	private Color playerMainColor;
@@ -51,7 +51,7 @@ public class PlayerHealth : MonoBehaviour {
 			playerbody.renderer.material.color = playerMainColor;
 		}
 		curHealth += adj;
-		if ((adj < 0) && (immuneTimer == 0f)) {
+		if ((adj < -4) && (immuneTimer == 0f)) {
 			playerbody.renderer.material.color = Color.red;
 			immuneTimer = immuneTime;
 		}

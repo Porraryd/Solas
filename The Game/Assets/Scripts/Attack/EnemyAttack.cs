@@ -46,7 +46,7 @@ public class EnemyAttack : MonoBehaviour {
 		if (distance < 2.5f && direction > 0.3) {
 			animator.SetBool ("attack", true);
 			PlayerHealth eh = (PlayerHealth)target.GetComponent ("PlayerHealth");
-			target.rigidbody.velocity = transform.forward * 10;
+			player.rigidbody.velocity = transform.forward * 100;
 			eh.AdjustCurrentHealth (-5);
 
 		}

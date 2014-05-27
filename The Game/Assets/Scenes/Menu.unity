@@ -13,7 +13,7 @@ SceneSettings:
 --- !u!104 &2
 RenderSettings:
   m_Fog: 1
-  m_FogColor: {r: .516111612, g: .555393159, b: .632352948, a: 1}
+  m_FogColor: {r: .294063568, g: .316444933, b: .360294104, a: 1}
   m_FogMode: 1
   m_FogDensity: .00999999978
   m_LinearFogStart: 300
@@ -640,7 +640,7 @@ SkinnedMeshRenderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: 280ec994cb1d66b4fa72fffae43aaf55, type: 2}
+  - {fileID: 2100000, guid: def5d579cf1f743508441344ac594d53, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -1346,7 +1346,7 @@ SkinnedMeshRenderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: 280ec994cb1d66b4fa72fffae43aaf55, type: 2}
+  - {fileID: 2100000, guid: def5d579cf1f743508441344ac594d53, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -2259,7 +2259,7 @@ SkinnedMeshRenderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: 280ec994cb1d66b4fa72fffae43aaf55, type: 2}
+  - {fileID: 2100000, guid: def5d579cf1f743508441344ac594d53, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -2771,7 +2771,7 @@ SkinnedMeshRenderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: 280ec994cb1d66b4fa72fffae43aaf55, type: 2}
+  - {fileID: 2100000, guid: def5d579cf1f743508441344ac594d53, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -3008,7 +3008,7 @@ SkinnedMeshRenderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: 280ec994cb1d66b4fa72fffae43aaf55, type: 2}
+  - {fileID: 2100000, guid: def5d579cf1f743508441344ac594d53, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -5765,7 +5765,7 @@ SkinnedMeshRenderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: 280ec994cb1d66b4fa72fffae43aaf55, type: 2}
+  - {fileID: 2100000, guid: def5d579cf1f743508441344ac594d53, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -7503,7 +7503,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!108 &613633189
 Light:
   m_ObjectHideFlags: 0
@@ -8009,7 +8009,7 @@ SkinnedMeshRenderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: 280ec994cb1d66b4fa72fffae43aaf55, type: 2}
+  - {fileID: 2100000, guid: def5d579cf1f743508441344ac594d53, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -9573,7 +9573,7 @@ SkinnedMeshRenderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: 280ec994cb1d66b4fa72fffae43aaf55, type: 2}
+  - {fileID: 2100000, guid: def5d579cf1f743508441344ac594d53, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -10343,6 +10343,105 @@ Prefab:
   m_RootGameObject: {fileID: 1954867069}
   m_IsPrefabParent: 0
   m_IsExploded: 1
+--- !u!1 &831131937
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: ca43efb2ccfa947ee8741dcc4b50c205, type: 2}
+  m_PrefabInternal: {fileID: 1483677422}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 831131942}
+  - 23: {fileID: 831131941}
+  - 102: {fileID: 831131940}
+  - 65: {fileID: 831131939}
+  - 114: {fileID: 831131938}
+  m_Layer: 0
+  m_Name: Play
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &831131938
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: ca43efb2ccfa947ee8741dcc4b50c205,
+    type: 2}
+  m_PrefabInternal: {fileID: 1483677422}
+  m_GameObject: {fileID: 831131937}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 770e567a66b8045a58b239e723a42294, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &831131939
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6500000, guid: ca43efb2ccfa947ee8741dcc4b50c205,
+    type: 2}
+  m_PrefabInternal: {fileID: 1483677422}
+  m_GameObject: {fileID: 831131937}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 31.3999996, y: 11.25, z: 0}
+  m_Center: {x: 15.6999998, y: -5.625, z: 0}
+--- !u!102 &831131940
+TextMesh:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 10200000, guid: ca43efb2ccfa947ee8741dcc4b50c205,
+    type: 2}
+  m_PrefabInternal: {fileID: 1483677422}
+  m_GameObject: {fileID: 831131937}
+  m_Text: Play
+  m_OffsetZ: 0
+  m_CharacterSize: 1
+  m_LineSpacing: 1
+  m_Anchor: 0
+  m_Alignment: 0
+  m_TabSize: 4
+  m_FontSize: 0
+  m_FontStyle: 0
+  m_RichText: 1
+  m_Font: {fileID: 12800000, guid: 628d92c88c4e74681aff8337fb31361e, type: 3}
+  m_Color:
+    serializedVersion: 2
+    rgba: 4294967295
+--- !u!23 &831131941
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300000, guid: ca43efb2ccfa947ee8741dcc4b50c205,
+    type: 2}
+  m_PrefabInternal: {fileID: 1483677422}
+  m_GameObject: {fileID: 831131937}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: 628d92c88c4e74681aff8337fb31361e, type: 3}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_SortingLayerID: 0
+--- !u!4 &831131942
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400000, guid: ca43efb2ccfa947ee8741dcc4b50c205, type: 2}
+  m_PrefabInternal: {fileID: 1483677422}
+  m_GameObject: {fileID: 831131937}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -7, y: 45, z: 40}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
 --- !u!1 &831610618
 GameObject:
   m_ObjectHideFlags: 0
@@ -12199,7 +12298,7 @@ SkinnedMeshRenderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: 280ec994cb1d66b4fa72fffae43aaf55, type: 2}
+  - {fileID: 2100000, guid: def5d579cf1f743508441344ac594d53, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -13459,7 +13558,7 @@ SkinnedMeshRenderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: 280ec994cb1d66b4fa72fffae43aaf55, type: 2}
+  - {fileID: 2100000, guid: def5d579cf1f743508441344ac594d53, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -14455,7 +14554,7 @@ SkinnedMeshRenderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: 280ec994cb1d66b4fa72fffae43aaf55, type: 2}
+  - {fileID: 2100000, guid: 5948cac1805964cc8b6473cef063cd36, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -15028,9 +15127,9 @@ TextMesh:
     type: 2}
   m_PrefabInternal: {fileID: 1725646875}
   m_GameObject: {fileID: 1151999379}
-  m_Text: Play
+  m_Text: Solas
   m_OffsetZ: 0
-  m_CharacterSize: 1
+  m_CharacterSize: 2
   m_LineSpacing: 1
   m_Anchor: 0
   m_Alignment: 0
@@ -15071,7 +15170,7 @@ Transform:
   m_PrefabInternal: {fileID: 1725646875}
   m_GameObject: {fileID: 1151999379}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7, y: 45, z: 40}
+  m_LocalPosition: {x: -25.4806023, y: 76.7185745, z: 40}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -15513,7 +15612,7 @@ SkinnedMeshRenderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: 280ec994cb1d66b4fa72fffae43aaf55, type: 2}
+  - {fileID: 2100000, guid: def5d579cf1f743508441344ac594d53, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -16060,7 +16159,7 @@ SkinnedMeshRenderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: 280ec994cb1d66b4fa72fffae43aaf55, type: 2}
+  - {fileID: 2100000, guid: def5d579cf1f743508441344ac594d53, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -19074,7 +19173,7 @@ SkinnedMeshRenderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: 280ec994cb1d66b4fa72fffae43aaf55, type: 2}
+  - {fileID: 2100000, guid: def5d579cf1f743508441344ac594d53, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -19453,7 +19552,7 @@ SkinnedMeshRenderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: 280ec994cb1d66b4fa72fffae43aaf55, type: 2}
+  - {fileID: 2100000, guid: def5d579cf1f743508441344ac594d53, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -19478,6 +19577,46 @@ SkinnedMeshRenderer:
     m_Center: {x: -3.24819946, y: -.115859151, z: .0664283037}
     m_Extent: {x: 3.25012636, y: 2.58760262, z: 2.55362511}
   m_DirtyAABB: 0
+--- !u!1001 &1483677422
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400000, guid: ca43efb2ccfa947ee8741dcc4b50c205, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -7
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ca43efb2ccfa947ee8741dcc4b50c205, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 45
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ca43efb2ccfa947ee8741dcc4b50c205, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ca43efb2ccfa947ee8741dcc4b50c205, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ca43efb2ccfa947ee8741dcc4b50c205, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ca43efb2ccfa947ee8741dcc4b50c205, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ca43efb2ccfa947ee8741dcc4b50c205, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: ca43efb2ccfa947ee8741dcc4b50c205, type: 2}
+  m_RootGameObject: {fileID: 831131937}
+  m_IsPrefabParent: 0
+  m_IsExploded: 1
 --- !u!1 &1483930068
 GameObject:
   m_ObjectHideFlags: 0
@@ -19891,6 +20030,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 13700002, guid: 023636914ddb32843a6ee7fbcb007f5f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5948cac1805964cc8b6473cef063cd36, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 023636914ddb32843a6ee7fbcb007f5f, type: 3}
   m_RootGameObject: {fileID: 2039850429}
@@ -20321,7 +20464,7 @@ SkinnedMeshRenderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: 280ec994cb1d66b4fa72fffae43aaf55, type: 2}
+  - {fileID: 2100000, guid: def5d579cf1f743508441344ac594d53, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -21702,7 +21845,7 @@ SkinnedMeshRenderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: 280ec994cb1d66b4fa72fffae43aaf55, type: 2}
+  - {fileID: 2100000, guid: def5d579cf1f743508441344ac594d53, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -22183,11 +22326,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400000, guid: ca43efb2ccfa947ee8741dcc4b50c205, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -7
+      value: -25.4806023
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ca43efb2ccfa947ee8741dcc4b50c205, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 45
+      value: 76.7185745
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ca43efb2ccfa947ee8741dcc4b50c205, type: 2}
       propertyPath: m_LocalPosition.z
@@ -22208,6 +22351,14 @@ Prefab:
     - target: {fileID: 400000, guid: ca43efb2ccfa947ee8741dcc4b50c205, type: 2}
       propertyPath: m_LocalRotation.w
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 10200000, guid: ca43efb2ccfa947ee8741dcc4b50c205, type: 2}
+      propertyPath: m_Text
+      value: Solas
+      objectReference: {fileID: 0}
+    - target: {fileID: 10200000, guid: ca43efb2ccfa947ee8741dcc4b50c205, type: 2}
+      propertyPath: m_CharacterSize
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ca43efb2ccfa947ee8741dcc4b50c205, type: 2}
@@ -23222,7 +23373,7 @@ SkinnedMeshRenderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: 280ec994cb1d66b4fa72fffae43aaf55, type: 2}
+  - {fileID: 2100000, guid: def5d579cf1f743508441344ac594d53, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -26549,7 +26700,7 @@ SkinnedMeshRenderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: 280ec994cb1d66b4fa72fffae43aaf55, type: 2}
+  - {fileID: 2100000, guid: def5d579cf1f743508441344ac594d53, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -27290,7 +27441,7 @@ SkinnedMeshRenderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: 280ec994cb1d66b4fa72fffae43aaf55, type: 2}
+  - {fileID: 2100000, guid: def5d579cf1f743508441344ac594d53, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0

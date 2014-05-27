@@ -6,7 +6,7 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: EvilBody
+  m_Name: EvilWings
   m_Shader: {fileID: 4800000, guid: 8ea417f3456749a4e96dda8d3b439275, type: 3}
   m_ShaderKeywords: []
   m_CustomRenderQueue: -1
@@ -31,7 +31,7 @@ Material:
       data:
         first:
           name: _RimPower
-        second: 3
+        second: 8
     m_Colors:
       data:
         first:

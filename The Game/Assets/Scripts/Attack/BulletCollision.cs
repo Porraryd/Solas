@@ -28,7 +28,7 @@ public class BulletCollision : MonoBehaviour {
 
 		if (col.gameObject.tag == "Enemy") {
 			Destroy (gameObject);
-			Destroy (col.gameObject);
+			col.gameObject.SendMessage("Die");
 		}
 
 		

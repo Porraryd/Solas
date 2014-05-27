@@ -54,7 +54,7 @@ public class FollowerAI : MonoBehaviour {
 		}*/
 
 		//möjlig kod för förföljande
-		if (Vector3.Distance (target.position, myTransform.position) < maxDistance) {
+		if ((Vector3.Distance (target.position, myTransform.position) < maxDistance) || Vector3.Distance (target.position, myTransform.position) < maxDistance) {
 
 						//Move towards player
 						animator.SetFloat ("speed", 1.0f);
@@ -73,6 +73,11 @@ public class FollowerAI : MonoBehaviour {
 			myTransform.LookAt(target);
 			animator.SetFloat("speed", 1.0f);
 		}
+	}
+
+	public void Die()
+	{
+
 	}
 
 	void Patrolling(){

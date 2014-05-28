@@ -21,7 +21,7 @@ public class CharacterControllerLogic : MonoBehaviour {
 	private bool isFalling = false;
 	public float jumpHeight = 6.0f;
 	private int m_LocomotionId = 0;
-
+	public static bool hasBrush = false;
 
 	void Start () {
 
@@ -49,7 +49,7 @@ public class CharacterControllerLogic : MonoBehaviour {
 		{	
 			Jump();
 		}
-		if (Input.GetButton ("Fire1")) {
+		if (Input.GetButton ("Fire1") && hasBrush) {
 				animator.SetBool ("attack", true);
 				} else
 						animator.SetBool ("attack", false);

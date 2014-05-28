@@ -759,6 +759,7 @@ GameObject:
   - 114: {fileID: 11400000}
   - 114: {fileID: 11400012}
   - 95: {fileID: 9500002}
+  - 114: {fileID: 11400014}
   m_Layer: 8
   m_Name: Player
   m_TagString: Player
@@ -1405,7 +1406,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100196}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: .0918159485, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 400154}
@@ -1542,7 +1543,7 @@ Renderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: 4219fb8fda8f24a67837014839dfa46d, type: 2}
+  - {fileID: 2100000, guid: 1ae46394c1a1c5c46972092ae13aa25c, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -1563,7 +1564,7 @@ Renderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: 4219fb8fda8f24a67837014839dfa46d, type: 2}
+  - {fileID: 2100000, guid: 6f237e85dd3765e448ab6de0e55c0e00, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -1584,7 +1585,7 @@ Renderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: 4219fb8fda8f24a67837014839dfa46d, type: 2}
+  - {fileID: 2100000, guid: 1ae46394c1a1c5c46972092ae13aa25c, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -1605,7 +1606,7 @@ Renderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: 4219fb8fda8f24a67837014839dfa46d, type: 2}
+  - {fileID: 2100000, guid: 13fa4803c97e49047b7769104d29f290, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -1626,7 +1627,7 @@ Renderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: 4219fb8fda8f24a67837014839dfa46d, type: 2}
+  - {fileID: 2100000, guid: 32d37e620959fa14da0b8a3f164e6dab, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -1839,7 +1840,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 100
-  healthDecayRate: 5
+  healthDecayRate: 2
   immuneTime: .5
 --- !u!114 &11400004
 MonoBehaviour:
@@ -1912,7 +1913,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeb13efc3b8a3e64f91a19e209741f2b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  debugMode: 1
+  debugMode: 0
+--- !u!114 &11400014
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100154}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72427cfcd5fd1d942bd982b7e5972293, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  brush: {fileID: 100090}
+  Particles: {fileID: 100000, guid: 8be896d5b08161646b0553d5e31a29e1, type: 2}
 --- !u!136 &13600000
 CapsuleCollider:
   m_ObjectHideFlags: 1

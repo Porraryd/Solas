@@ -1,13 +1,5 @@
-3d-projekt
+Solas
 ==========
 
-yolo swag
-bajs bajs
+A game demo made with the Unity engine (4.3.4) in the course TNM061 - 3D Computer Graphics at Linköping University. 
 
-väldans knasigt det här!
-
-HÖHÖHÖHÖHÖHÖÖHHÖÖHSTACK
-
-git commit -am "instruktioner"
-git pull
-git push
